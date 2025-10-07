@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://logo.clearbit.com/adobe.com",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "id": 1,
+    "description": "Professional photo editing and graphic design software with advanced tools for digital imaging and creative projects.",
+    "size": 2100.5,
+    "reviews": 285000,
+    "ratingAvg": 4.7,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 95000 },
+      { "name": "5 star", "count": 150300 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/figma.com",
+    "title": "Figma: Design & Prototype",
+    "companyName": "Figma Inc.",
+    "id": 2,
+    "description": "Collaborative interface design tool for creating, prototyping, and sharing designs in real-time with teams.",
+    "size": 156.3,
+    "reviews": 198000,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 68000 },
+      { "name": "5 star", "count": 106000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/code.visualstudio.com",
+    "title": "Visual Studio Code",
+    "companyName": "Microsoft Corporation",
+    "id": 3,
+    "description": "Powerful code editor with IntelliSense, debugging, Git integration, and extensions for every programming language.",
+    "size": 312.8,
+    "reviews": 542000,
+    "ratingAvg": 4.9,
+    "downloads": "35M",
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 5800 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 142000 },
+      { "name": "5 star", "count": 370100 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/slack.com",
+    "title": "Slack: Team Communication",
+    "companyName": "Slack Technologies",
+    "id": 4,
+    "description": "Transform team communication with organized channels, direct messaging, and seamless integrations for productivity.",
+    "size": 195.4,
+    "reviews": 785000,
+    "ratingAvg": 4.6,
+    "downloads": "45M",
+    "ratings": [
+      { "name": "1 star", "count": 11200 },
+      { "name": "2 star", "count": 22800 },
+      { "name": "3 star", "count": 78000 },
+      { "name": "4 star", "count": 298000 },
+      { "name": "5 star", "count": 375000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/notion.so",
+    "title": "Notion: Notes & Workspace",
+    "companyName": "Notion Labs",
+    "id": 5,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases that adapts to your workflow and team needs.",
+    "size": 128.7,
+    "reviews": 485000,
+    "ratingAvg": 4.7,
+    "downloads": "28M",
+    "ratings": [
+      { "name": "1 star", "count": 5200 },
+      { "name": "2 star", "count": 9800 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 156000 },
+      { "name": "5 star", "count": 276000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/spotify.com",
+    "title": "Spotify: Music & Podcasts",
+    "companyName": "Spotify AB",
+    "id": 6,
+    "description": "Stream millions of songs and podcasts with personalized recommendations and curated playlists for every mood.",
+    "size": 245.2,
+    "reviews": 3200000,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 85000 },
+      { "name": "2 star", "count": 128000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1367000 }
+    ]
+  },
+  {
+    "image": "https://cdn.worldvectorlogo.com/logos/zoom-communications-logo.svg",
+    "title": "Zoom: Video Conferencing",
+    "companyName": "Zoom Video Communications",
+    "id": 7,
+    "description": "HD video meetings, webinars, and screen sharing for remote collaboration with enterprise-grade security.",
+    "size": 189.6,
+    "reviews": 1200000,
+    "ratingAvg": 4.4,
+    "downloads": "250M",
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 62000 },
+      { "name": "3 star", "count": 185000 },
+      { "name": "4 star", "count": 425000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/discord.com",
+    "title": "Discord: Chat & Hangout",
+    "companyName": "Discord Inc.",
+    "id": 8,
+    "description": "Voice, video, and text communication designed for creating communities and hanging out with friends.",
+    "size": 215.8,
+    "reviews": 2800000,
+    "ratingAvg": 4.6,
+    "downloads": "420M",
+    "ratings": [
+      { "name": "1 star", "count": 52000 },
+      { "name": "2 star", "count": 98000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 980000 },
+      { "name": "5 star", "count": 1350000 }
+    ]
+  }
+]
