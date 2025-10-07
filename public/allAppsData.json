@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/400px-Figma-logo.svg.png",
+    "image": "https://cdn.simpleicons.org/figma/F24E1E",
     "title": "Figma: Design & Prototype",
     "companyName": "Figma Inc.",
     "id": 2,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/512px-Slack_icon_2019.svg.png",
+    "image": "https://cdn.simpleicons.org/slack/4A154B",
     "title": "Slack: Team Communication",
     "companyName": "Slack Technologies",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/512px-Notion-logo.svg.png",
+    "image": "https://cdn.simpleicons.org/notion/000000",
     "title": "Notion: Notes & Workspace",
     "companyName": "Notion Labs",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/512px-Spotify_logo_without_text.svg.png",
+    "image": "https://cdn.simpleicons.org/spotify/1DB954",
     "title": "Spotify: Music & Podcasts",
     "companyName": "Spotify AB",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Zoom_Communications_Logo.svg/512px-Zoom_Communications_Logo.svg.png",
+    "image": "https://cdn.simpleicons.org/zoom/2D8CFF",
     "title": "Zoom: Video Conferencing",
     "companyName": "Zoom Video Communications",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Discord_logo.svg/512px-Discord_logo.svg.png",
+    "image": "https://cdn.simpleicons.org/discord/5865F2",
     "title": "Discord: Chat & Hangout",
     "companyName": "Discord Inc.",
     "id": 8,
@@ -144,46 +144,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/512px-Matlab_Logo.png",
-    "title": "MATLAB: Technical Computing",
-    "companyName": "MathWorks",
-    "id": 9,
-    "description": "High-level language and interactive environment for numerical computation, visualization, and programming.",
-    "size": 1890.2,
-    "reviews": 95000,
-    "ratingAvg": 4.3,
-    "downloads": "8M",
-    "ratings": [
-      { "name": "1 star", "count": 2100 },
-      { "name": "2 star", "count": 4800 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 38000 },
-      { "name": "5 star", "count": 38100 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Blender_logo_no_text.svg/512px-Blender_logo_no_text.svg.png",
-    "title": "Blender: 3D Creation Suite",
-    "companyName": "Blender Foundation",
-    "id": 10,
-    "description": "Free and open-source 3D computer graphics software for modeling, rigging, animation, simulation, and rendering.",
-    "size": 845.6,
-    "reviews": 425000,
-    "ratingAvg": 4.8,
-    "downloads": "18M",
-    "ratings": [
-      { "name": "1 star", "count": 3500 },
-      { "name": "2 star", "count": 8200 },
-      { "name": "3 star", "count": 28000 },
-      { "name": "4 star", "count": 142000 },
-      { "name": "5 star", "count": 243300 }
-    ]
-  },
-  {
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png",
     "title": "Adobe Illustrator",
     "companyName": "Adobe Inc.",
-    "id": 11,
+    "id": 9,
     "description": "Vector graphics editor and design program for creating logos, icons, drawings, and complex illustrations.",
     "size": 1950.8,
     "reviews": 198000,
@@ -198,10 +162,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/512px-GitHub_Invertocat_Logo.svg.png",
+    "image": "https://cdn.simpleicons.org/github/181717",
     "title": "GitHub Desktop",
     "companyName": "GitHub Inc.",
-    "id": 12,
+    "id": 10,
     "description": "Git client application that helps manage repositories, branches, commits, and pull requests with a visual interface.",
     "size": 185.4,
     "reviews": 685000,
@@ -216,10 +180,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Chrome_icon.svg/512px-Google_Chrome_icon.svg.png",
+    "image": "https://cdn.simpleicons.org/googlechrome/4285F4",
     "title": "Google Chrome",
     "companyName": "Google LLC",
-    "id": 13,
+    "id": 11,
     "description": "Fast, secure, and customizable web browser with built-in Google services and extensive extension support.",
     "size": 295.7,
     "reviews": 4500000,
@@ -234,10 +198,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mozilla_Firefox_Logo.svg/512px-Mozilla_Firefox_Logo.svg.png",
+    "image": "https://cdn.simpleicons.org/firefoxbrowser/FF7139",
     "title": "Mozilla Firefox",
     "companyName": "Mozilla Corporation",
-    "id": 14,
+    "id": 12,
     "description": "Privacy-focused web browser with enhanced tracking protection and customizable interface for secure browsing.",
     "size": 215.3,
     "reviews": 2800000,
@@ -252,10 +216,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/512px-FileZilla_logo.svg.png",
+    "image": "https://cdn.simpleicons.org/filezilla/BF0000",
     "title": "FileZilla: FTP Client",
     "companyName": "Tim Kosse",
-    "id": 15,
+    "id": 13,
     "description": "Cross-platform FTP application supporting FTP, FTPS and SFTP protocols for file transfers between computers.",
     "size": 58.2,
     "reviews": 125000,
@@ -270,10 +234,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png",
+    "image": "https://cdn.simpleicons.org/steam/000000",
     "title": "Steam Gaming Platform",
     "companyName": "Valve Corporation",
-    "id": 16,
+    "id": 14,
     "description": "Digital distribution platform for purchasing, downloading, and playing video games with community features.",
     "size": 485.9,
     "reviews": 8500000,
@@ -288,28 +252,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/512px-Markdown-mark.svg.png",
-    "title": "Typora: Markdown Editor",
-    "companyName": "Abner Lee",
-    "id": 17,
-    "description": "Live markdown editor with seamless live preview, math expressions, diagrams, and integrated image tools.",
-    "size": 95.4,
-    "reviews": 85000,
-    "ratingAvg": 4.8,
-    "downloads": "4M",
-    "ratings": [
-      { "name": "1 star", "count": 850 },
-      { "name": "2 star", "count": 2200 },
-      { "name": "3 star", "count": 8500 },
-      { "name": "4 star", "count": 28000 },
-      { "name": "5 star", "count": 45450 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PyCharm_Icon.svg/512px-PyCharm_Icon.svg.png",
+    "image": "https://cdn.simpleicons.org/pycharm/000000",
     "title": "PyCharm: Python IDE",
     "companyName": "JetBrains",
-    "id": 18,
+    "id": 15,
     "description": "Integrated development environment for Python programming with debugging, testing, and intelligent code assistance.",
     "size": 685.2,
     "reviews": 425000,
@@ -324,10 +270,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/512px-Sql_data_base_with_logo.png",
+    "image": "https://cdn.simpleicons.org/mysql/4479A1",
     "title": "MySQL Workbench",
     "companyName": "Oracle Corporation",
-    "id": 19,
+    "id": 16,
     "description": "Visual database design tool for MySQL database development, administration, and data modeling.",
     "size": 385.7,
     "reviews": 165000,
@@ -342,10 +288,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+    "image": "https://cdn.simpleicons.org/react/61DAFB",
     "title": "React Developer Tools",
     "companyName": "Meta (Facebook)",
-    "id": 20,
+    "id": 17,
     "description": "Browser extension for debugging React component hierarchies in Chrome and Firefox developer tools.",
     "size": 12.8,
     "reviews": 285000,
@@ -360,10 +306,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/512px-ChatGPT_logo.svg.png",
+    "image": "https://cdn.simpleicons.org/openai/412991",
     "title": "ChatGPT Desktop",
     "companyName": "OpenAI",
-    "id": 21,
+    "id": 18,
     "description": "AI-powered conversational assistant for answering questions, writing, coding, and creative tasks.",
     "size": 125.6,
     "reviews": 1250000,
@@ -378,28 +324,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/512px-Octicons-mark-github.svg.png",
-    "title": "GitHub CLI",
-    "companyName": "GitHub Inc.",
-    "id": 22,
-    "description": "Command-line tool that brings GitHub to your terminal for managing repositories, issues, and pull requests.",
-    "size": 45.8,
-    "reviews": 95000,
-    "ratingAvg": 4.8,
-    "downloads": "15M",
-    "ratings": [
-      { "name": "1 star", "count": 950 },
-      { "name": "2 star", "count": 2800 },
-      { "name": "3 star", "count": 9500 },
-      { "name": "4 star", "count": 32000 },
-      { "name": "5 star", "count": 49750 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/512px-Nextjs-logo.svg.png",
-    "title": "Next.js Documentation",
+    "image": "https://cdn.simpleicons.org/nextdotjs/000000",
+    "title": "Next.js Framework",
     "companyName": "Vercel Inc.",
-    "id": 23,
+    "id": 19,
     "description": "React framework for production with hybrid static & server rendering, smart bundling, and route pre-fetching.",
     "size": 2.5,
     "reviews": 125000,
@@ -414,10 +342,10 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png",
+    "image": "https://cdn.simpleicons.org/tailwindcss/06B6D4",
     "title": "Tailwind CSS IntelliSense",
     "companyName": "Tailwind Labs",
-    "id": 24,
+    "id": 20,
     "description": "VS Code extension providing intelligent autocomplete, syntax highlighting, and linting for Tailwind CSS.",
     "size": 5.2,
     "reviews": 385000,
@@ -432,21 +360,93 @@
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/512px-Apple_logo_grey.svg.png",
-    "title": "Xcode Developer Tools",
-    "companyName": "Apple Inc.",
-    "id": 25,
-    "description": "Complete developer toolset for creating apps for Mac, iPhone, iPad, Apple Watch, and Apple TV platforms.",
-    "size": 14500.0,
-    "reviews": 685000,
-    "ratingAvg": 4.2,
-    "downloads": "25M",
+    "image": "https://cdn.simpleicons.org/trello/0052CC",
+    "title": "Trello: Project Boards",
+    "companyName": "Atlassian",
+    "id": 21,
+    "description": "Visual collaboration tool that creates a shared perspective on any project using boards, lists, and cards.",
+    "size": 73.2,
+    "reviews": 542000,
+    "ratingAvg": 4.5,
+    "downloads": "20M",
     "ratings": [
-      { "name": "1 star", "count": 15800 },
-      { "name": "2 star", "count": 38500 },
-      { "name": "3 star", "count": 125000 },
-      { "name": "4 star", "count": 285000 },
-      { "name": "5 star", "count": 220700 }
+      { "name": "1 star", "count": 7200 },
+      { "name": "2 star", "count": 12800 },
+      { "name": "3 star", "count": 48000 },
+      { "name": "4 star", "count": 198000 },
+      { "name": "5 star", "count": 276000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/docker/2496ED",
+    "title": "Docker Desktop",
+    "companyName": "Docker Inc.",
+    "id": 22,
+    "description": "Platform for building, sharing, and running containerized applications with integrated developer tools.",
+    "size": 585.3,
+    "reviews": 485000,
+    "ratingAvg": 4.4,
+    "downloads": "65M",
+    "ratings": [
+      { "name": "1 star", "count": 12500 },
+      { "name": "2 star", "count": 28000 },
+      { "name": "3 star", "count": 68000 },
+      { "name": "4 star", "count": 185000 },
+      { "name": "5 star", "count": 191500 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/postman/FF6C37",
+    "title": "Postman API Platform",
+    "companyName": "Postman Inc.",
+    "id": 23,
+    "description": "API platform for building, testing, and managing APIs with collaboration tools and automated testing.",
+    "size": 245.8,
+    "reviews": 685000,
+    "ratingAvg": 4.6,
+    "downloads": "42M",
+    "ratings": [
+      { "name": "1 star", "count": 8500 },
+      { "name": "2 star", "count": 18200 },
+      { "name": "3 star", "count": 62000 },
+      { "name": "4 star", "count": 245000 },
+      { "name": "5 star", "count": 351300 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/git/F05032",
+    "title": "Git Version Control",
+    "companyName": "Git Community",
+    "id": 24,
+    "description": "Distributed version control system for tracking changes in source code during software development.",
+    "size": 45.2,
+    "reviews": 425000,
+    "ratingAvg": 4.8,
+    "downloads": "125M",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 145000 },
+      { "name": "5 star", "count": 230300 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/mongodb/47A248",
+    "title": "MongoDB Compass",
+    "companyName": "MongoDB Inc.",
+    "id": 25,
+    "description": "GUI for exploring MongoDB data, running queries, optimizing performance, and building aggregation pipelines.",
+    "size": 285.4,
+    "reviews": 285000,
+    "ratingAvg": 4.3,
+    "downloads": "28M",
+    "ratings": [
+      { "name": "1 star", "count": 5200 },
+      { "name": "2 star", "count": 15800 },
+      { "name": "3 star", "count": 48000 },
+      { "name": "4 star", "count": 125000 },
+      { "name": "5 star", "count": 91000 }
     ]
   }
 ]
