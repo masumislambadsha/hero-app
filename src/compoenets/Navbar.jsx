@@ -1,10 +1,13 @@
 import React from "react";
-import { Link } from "react-router";
-import logo from "../assets/logo.png"
+import { Link, NavLink } from "react-router";
+import logo from "../assets/logo.png";
+import github from "../assets/githubLogo.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+
+    <div className="bg-base-100 shadow">
+      <div className="container mx-auto navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,44 +31,95 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <Link to="/">
-              <a>Home</a>
-            </Link>
-            <Link to="/app">
-              <a>App</a>
-            </Link>
-            <Link to="/installed">
-              <a>Installed</a>
-            </Link>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-primary font-bold border-b-2 border-primary"
+                  : "text-gray-600 hover:text-primary"
+              }
+            >
+              Home
+            </NavLink>
+
+            <NavLink
+              to="/apps"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-primary font-bold border-b-2 border-primary"
+                  : "text-gray-600 hover:text-primary"
+              }
+            >
+              Apps
+            </NavLink>
+
+            <NavLink
+              to="/installation"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-primary font-bold border-b-2 border-primary"
+                  : "text-gray-600 hover:text-primary"
+              }
+            >
+              Installation
+            </NavLink>
           </ul>
         </div>
 
         <div className="flex items-center justify-center">
           <img src={logo} className="w-[40px] h-[40px]" alt="" />
-          <Link to='/'>
-        <a className="btn-ghost text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
-             bg-clip-text text-transparent px-0">HERO.IO</a>
-        </Link>
+          <Link to="/">
+            <a
+              className="btn-ghost text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
+             bg-clip-text text-transparent px-0"
+            >
+              HERO.IO
+            </a>
+          </Link>
         </div>
-
-
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 space-x-5">
-          <Link to="/">
-            <a className="btn border-0">Home</a>
-          </Link>
-          <Link to="/app">
-            <a className="btn border-0">App</a>
-          </Link>
-          <Link to="/installed">
-            <a className="btn border-0">Installed</a>
-          </Link>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive
+                ? "btn text-primary font-bold border-b-2 border-primary"
+                : "btn"
+            }
+          >
+            Home
+          </NavLink>
+
+          <NavLink
+            to="/apps"
+            className={({ isActive }) =>
+              isActive
+                ? "btn text-primary font-bold border-b-2 border-primary"
+                : "btn"
+            }
+          >
+            Apps
+          </NavLink>
+
+          <NavLink
+            to="/installation"
+            className={({ isActive }) =>
+              isActive
+                ? "btn text-primary font-bold border-b-2 border-primary"
+                : "btn"
+            }
+          >
+            Installation
+          </NavLink>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a target=" _blank" href="https://github.com/masumislambadsha" className="btn rounded-lg px-[15px] py-[21px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+          <img src={github} alt="" /> Contribute
+        </a>
       </div>
+    </div>
     </div>
   );
 };
