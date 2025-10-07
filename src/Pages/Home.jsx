@@ -4,6 +4,7 @@ import playStore from "../assets/playstore.png";
 import heroImg from "../assets/hero.png";
 import useHomeData from "../Hooks/useHomeData";
 import HomeApps from "../compoenets/HomeApps";
+import { Link } from "react-router";
 
 const HomePage = () => {
   const { datas } = useHomeData();
@@ -83,7 +84,12 @@ const HomePage = () => {
           <HomeApps data={data}></HomeApps>
         ))}
       </div>
-      <button className="btn text-center">Show All</button>
+      <div className="flex justify-center items-center mt-10">
+        <Link to='/apps'  className="btn rounded-lg px-[30px] py-[25px] text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+        Show All
+      </Link>
+      </div>
+
     </div>
   );
 };
