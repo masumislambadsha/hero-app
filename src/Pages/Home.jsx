@@ -81,7 +81,7 @@ const HomePage = () => {
       </div>
       <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-10 md:px-30">
         {datas.map((data) => (
-          <HomeApps data={data}></HomeApps>
+          <HomeApps key={data.id} data={data}></HomeApps>
         ))}
       </div>
       <div className="flex justify-center items-center mt-10">

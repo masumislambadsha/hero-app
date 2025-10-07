@@ -1,0 +1,452 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "id": 1,
+    "description": "Professional photo editing and graphic design software with advanced tools for digital imaging and creative projects.",
+    "size": 2100.5,
+    "reviews": 285000,
+    "ratingAvg": 4.7,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 95000 },
+      { "name": "5 star", "count": 150300 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/400px-Figma-logo.svg.png",
+    "title": "Figma: Design & Prototype",
+    "companyName": "Figma Inc.",
+    "id": 2,
+    "description": "Collaborative interface design tool for creating, prototyping, and sharing designs in real-time with teams.",
+    "size": 156.3,
+    "reviews": 198000,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 68000 },
+      { "name": "5 star", "count": 106000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png",
+    "title": "Visual Studio Code",
+    "companyName": "Microsoft Corporation",
+    "id": 3,
+    "description": "Powerful code editor with IntelliSense, debugging, Git integration, and extensions for every programming language.",
+    "size": 312.8,
+    "reviews": 542000,
+    "ratingAvg": 4.9,
+    "downloads": "35M",
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 5800 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 142000 },
+      { "name": "5 star", "count": 370100 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/512px-Slack_icon_2019.svg.png",
+    "title": "Slack: Team Communication",
+    "companyName": "Slack Technologies",
+    "id": 4,
+    "description": "Transform team communication with organized channels, direct messaging, and seamless integrations for productivity.",
+    "size": 195.4,
+    "reviews": 785000,
+    "ratingAvg": 4.6,
+    "downloads": "45M",
+    "ratings": [
+      { "name": "1 star", "count": 11200 },
+      { "name": "2 star", "count": 22800 },
+      { "name": "3 star", "count": 78000 },
+      { "name": "4 star", "count": 298000 },
+      { "name": "5 star", "count": 375000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/512px-Notion-logo.svg.png",
+    "title": "Notion: Notes & Workspace",
+    "companyName": "Notion Labs",
+    "id": 5,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases that adapts to your workflow and team needs.",
+    "size": 128.7,
+    "reviews": 485000,
+    "ratingAvg": 4.7,
+    "downloads": "28M",
+    "ratings": [
+      { "name": "1 star", "count": 5200 },
+      { "name": "2 star", "count": 9800 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 156000 },
+      { "name": "5 star", "count": 276000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/512px-Spotify_logo_without_text.svg.png",
+    "title": "Spotify: Music & Podcasts",
+    "companyName": "Spotify AB",
+    "id": 6,
+    "description": "Stream millions of songs and podcasts with personalized recommendations and curated playlists for every mood.",
+    "size": 245.2,
+    "reviews": 3200000,
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 85000 },
+      { "name": "2 star", "count": 128000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1367000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Zoom_Communications_Logo.svg/512px-Zoom_Communications_Logo.svg.png",
+    "title": "Zoom: Video Conferencing",
+    "companyName": "Zoom Video Communications",
+    "id": 7,
+    "description": "HD video meetings, webinars, and screen sharing for remote collaboration with enterprise-grade security.",
+    "size": 189.6,
+    "reviews": 1200000,
+    "ratingAvg": 4.4,
+    "downloads": "250M",
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 62000 },
+      { "name": "3 star", "count": 185000 },
+      { "name": "4 star", "count": 425000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Discord_logo.svg/512px-Discord_logo.svg.png",
+    "title": "Discord: Chat & Hangout",
+    "companyName": "Discord Inc.",
+    "id": 8,
+    "description": "Voice, video, and text communication designed for creating communities and hanging out with friends.",
+    "size": 215.8,
+    "reviews": 2800000,
+    "ratingAvg": 4.6,
+    "downloads": "420M",
+    "ratings": [
+      { "name": "1 star", "count": 52000 },
+      { "name": "2 star", "count": 98000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 980000 },
+      { "name": "5 star", "count": 1350000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/512px-Matlab_Logo.png",
+    "title": "MATLAB: Technical Computing",
+    "companyName": "MathWorks",
+    "id": 9,
+    "description": "High-level language and interactive environment for numerical computation, visualization, and programming.",
+    "size": 1890.2,
+    "reviews": 95000,
+    "ratingAvg": 4.3,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 4800 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 38100 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Blender_logo_no_text.svg/512px-Blender_logo_no_text.svg.png",
+    "title": "Blender: 3D Creation Suite",
+    "companyName": "Blender Foundation",
+    "id": 10,
+    "description": "Free and open-source 3D computer graphics software for modeling, rigging, animation, simulation, and rendering.",
+    "size": 845.6,
+    "reviews": 425000,
+    "ratingAvg": 4.8,
+    "downloads": "18M",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 8200 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 142000 },
+      { "name": "5 star", "count": 243300 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png",
+    "title": "Adobe Illustrator",
+    "companyName": "Adobe Inc.",
+    "id": 11,
+    "description": "Vector graphics editor and design program for creating logos, icons, drawings, and complex illustrations.",
+    "size": 1950.8,
+    "reviews": 198000,
+    "ratingAvg": 4.5,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 6500 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 85000 },
+      { "name": "5 star", "count": 81700 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/512px-GitHub_Invertocat_Logo.svg.png",
+    "title": "GitHub Desktop",
+    "companyName": "GitHub Inc.",
+    "id": 12,
+    "description": "Git client application that helps manage repositories, branches, commits, and pull requests with a visual interface.",
+    "size": 185.4,
+    "reviews": 685000,
+    "ratingAvg": 4.7,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 8200 },
+      { "name": "2 star", "count": 15800 },
+      { "name": "3 star", "count": 55000 },
+      { "name": "4 star", "count": 245000 },
+      { "name": "5 star", "count": 361000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Chrome_icon.svg/512px-Google_Chrome_icon.svg.png",
+    "title": "Google Chrome",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Fast, secure, and customizable web browser with built-in Google services and extensive extension support.",
+    "size": 295.7,
+    "reviews": 4500000,
+    "ratingAvg": 4.3,
+    "downloads": "1.2B",
+    "ratings": [
+      { "name": "1 star", "count": 95000 },
+      { "name": "2 star", "count": 185000 },
+      { "name": "3 star", "count": 485000 },
+      { "name": "4 star", "count": 1580000 },
+      { "name": "5 star", "count": 2155000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mozilla_Firefox_Logo.svg/512px-Mozilla_Firefox_Logo.svg.png",
+    "title": "Mozilla Firefox",
+    "companyName": "Mozilla Corporation",
+    "id": 14,
+    "description": "Privacy-focused web browser with enhanced tracking protection and customizable interface for secure browsing.",
+    "size": 215.3,
+    "reviews": 2800000,
+    "ratingAvg": 4.4,
+    "downloads": "850M",
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 98000 },
+      { "name": "3 star", "count": 285000 },
+      { "name": "4 star", "count": 985000 },
+      { "name": "5 star", "count": 1390000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/512px-FileZilla_logo.svg.png",
+    "title": "FileZilla: FTP Client",
+    "companyName": "Tim Kosse",
+    "id": 15,
+    "description": "Cross-platform FTP application supporting FTP, FTPS and SFTP protocols for file transfers between computers.",
+    "size": 58.2,
+    "reviews": 125000,
+    "ratingAvg": 4.2,
+    "downloads": "95M",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 8200 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 43300 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Steam_icon_logo.svg/512px-Steam_icon_logo.svg.png",
+    "title": "Steam Gaming Platform",
+    "companyName": "Valve Corporation",
+    "id": 16,
+    "description": "Digital distribution platform for purchasing, downloading, and playing video games with community features.",
+    "size": 485.9,
+    "reviews": 8500000,
+    "ratingAvg": 4.6,
+    "downloads": "1.8B",
+    "ratings": [
+      { "name": "1 star", "count": 125000 },
+      { "name": "2 star", "count": 285000 },
+      { "name": "3 star", "count": 685000 },
+      { "name": "4 star", "count": 2980000 },
+      { "name": "5 star", "count": 4425000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/512px-Markdown-mark.svg.png",
+    "title": "Typora: Markdown Editor",
+    "companyName": "Abner Lee",
+    "id": 17,
+    "description": "Live markdown editor with seamless live preview, math expressions, diagrams, and integrated image tools.",
+    "size": 95.4,
+    "reviews": 85000,
+    "ratingAvg": 4.8,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 45450 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/PyCharm_Icon.svg/512px-PyCharm_Icon.svg.png",
+    "title": "PyCharm: Python IDE",
+    "companyName": "JetBrains",
+    "id": 18,
+    "description": "Integrated development environment for Python programming with debugging, testing, and intelligent code assistance.",
+    "size": 685.2,
+    "reviews": 425000,
+    "ratingAvg": 4.5,
+    "downloads": "18M",
+    "ratings": [
+      { "name": "1 star", "count": 6800 },
+      { "name": "2 star", "count": 15200 },
+      { "name": "3 star", "count": 42000 },
+      { "name": "4 star", "count": 165000 },
+      { "name": "5 star", "count": 196000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sql_data_base_with_logo.png/512px-Sql_data_base_with_logo.png",
+    "title": "MySQL Workbench",
+    "companyName": "Oracle Corporation",
+    "id": 19,
+    "description": "Visual database design tool for MySQL database development, administration, and data modeling.",
+    "size": 385.7,
+    "reviews": 165000,
+    "ratingAvg": 4.1,
+    "downloads": "45M",
+    "ratings": [
+      { "name": "1 star", "count": 4200 },
+      { "name": "2 star", "count": 12500 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 65000 },
+      { "name": "5 star", "count": 45300 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+    "title": "React Developer Tools",
+    "companyName": "Meta (Facebook)",
+    "id": 20,
+    "description": "Browser extension for debugging React component hierarchies in Chrome and Firefox developer tools.",
+    "size": 12.8,
+    "reviews": 285000,
+    "ratingAvg": 4.7,
+    "downloads": "85M",
+    "ratings": [
+      { "name": "1 star", "count": 2850 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 95000 },
+      { "name": "5 star", "count": 150650 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/512px-ChatGPT_logo.svg.png",
+    "title": "ChatGPT Desktop",
+    "companyName": "OpenAI",
+    "id": 21,
+    "description": "AI-powered conversational assistant for answering questions, writing, coding, and creative tasks.",
+    "size": 125.6,
+    "reviews": 1250000,
+    "ratingAvg": 4.3,
+    "downloads": "185M",
+    "ratings": [
+      { "name": "1 star", "count": 28000 },
+      { "name": "2 star", "count": 65000 },
+      { "name": "3 star", "count": 185000 },
+      { "name": "4 star", "count": 485000 },
+      { "name": "5 star", "count": 487000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/512px-Octicons-mark-github.svg.png",
+    "title": "GitHub CLI",
+    "companyName": "GitHub Inc.",
+    "id": 22,
+    "description": "Command-line tool that brings GitHub to your terminal for managing repositories, issues, and pull requests.",
+    "size": 45.8,
+    "reviews": 95000,
+    "ratingAvg": 4.8,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 32000 },
+      { "name": "5 star", "count": 49750 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/512px-Nextjs-logo.svg.png",
+    "title": "Next.js Documentation",
+    "companyName": "Vercel Inc.",
+    "id": 23,
+    "description": "React framework for production with hybrid static & server rendering, smart bundling, and route pre-fetching.",
+    "size": 2.5,
+    "reviews": 125000,
+    "ratingAvg": 4.9,
+    "downloads": "95M",
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 75450 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png",
+    "title": "Tailwind CSS IntelliSense",
+    "companyName": "Tailwind Labs",
+    "id": 24,
+    "description": "VS Code extension providing intelligent autocomplete, syntax highlighting, and linting for Tailwind CSS.",
+    "size": 5.2,
+    "reviews": 385000,
+    "ratingAvg": 4.8,
+    "downloads": "125M",
+    "ratings": [
+      { "name": "1 star", "count": 2850 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 32000 },
+      { "name": "4 star", "count": 125000 },
+      { "name": "5 star", "count": 216650 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/512px-Apple_logo_grey.svg.png",
+    "title": "Xcode Developer Tools",
+    "companyName": "Apple Inc.",
+    "id": 25,
+    "description": "Complete developer toolset for creating apps for Mac, iPhone, iPad, Apple Watch, and Apple TV platforms.",
+    "size": 14500.0,
+    "reviews": 685000,
+    "ratingAvg": 4.2,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 15800 },
+      { "name": "2 star", "count": 38500 },
+      { "name": "3 star", "count": 125000 },
+      { "name": "4 star", "count": 285000 },
+      { "name": "5 star", "count": 220700 }
+    ]
+  }
+]
