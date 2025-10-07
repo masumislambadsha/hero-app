@@ -54,8 +54,11 @@ const HomePage = () => {
       </div>
     </div>
        <div className="text-center mt-[80px]">
-        <h3 className="font-bold text-5xl text-[#001931]  ">Trending Apps</h3>
-        <p className="font-normal text-lg text-[#627382] ">Explore All Trending Apps on the Market developed by us </p>
+        <h3 className="font-bold text-5xl text-[#001931] mb-4">Trending Apps</h3>
+        <p className="font-normal text-lg text-[#627382]  mb-10">Explore All Trending Apps on the Market developed by us </p>
+       </div>
+       <div>
+        
        </div>
     </div>
   );

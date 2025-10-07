@@ -1,0 +1,182 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=400&fit=crop",
+    "title": "Forest: Focus For Productivity",
+    "companyName": "Seekrtech",
+    "id": 1,
+    "description": "Stay focused, stop phubbing, and build a healthy life by planting virtual trees that grow into a real forest.",
+    "size": 45.2,
+    "reviews": 125000,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 8300 },
+      { "name": "4 star", "count": 32000 },
+      { "name": "5 star", "count": 81000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=400&fit=crop",
+    "title": "SmPlan: ToDo List With Reminder",
+    "companyName": "SmartPlan Inc",
+    "id": 2,
+    "description": "Organize your day with a simple and powerful to-do list and reminder app that helps you stay on track.",
+    "size": 28.5,
+    "reviews": 87000,
+    "ratingAvg": 4.6,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 50050 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1557683316-973673baf926?w=400&h=400&fit=crop",
+    "title": "FLIP - Focus Timer For Study",
+    "companyName": "FlipStudy Co",
+    "id": 3,
+    "description": "A Pomodoro-based timer app designed to boost study sessions and improve concentration through timed intervals.",
+    "size": 32.8,
+    "reviews": 64000,
+    "ratingAvg": 4.7,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 32200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=400&h=400&fit=crop",
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "CatApps Studio",
+    "id": 4,
+    "description": "Boost productivity with an adorable cat companion that guides your Pomodoro sessions with cute animations.",
+    "size": 52.3,
+    "reviews": 95000,
+    "ratingAvg": 4.9,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 62300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=400&fit=crop",
+    "title": "Habitica: Gamify Your Tasks",
+    "companyName": "HabitRPG Inc",
+    "id": 5,
+    "description": "Turn your real-life goals into a game by completing tasks to level up your character and unlock rewards.",
+    "size": 68.7,
+    "reviews": 210000,
+    "ratingAvg": 4.5,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 5800 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 72000 },
+      { "name": "5 star", "count": 111000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=400&fit=crop",
+    "title": "Notion: Notes & Project Manager",
+    "companyName": "Notion Labs",
+    "id": 6,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases that adapts to your workflow needs.",
+    "size": 95.4,
+    "reviews": 485000,
+    "ratingAvg": 4.7,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 5200 },
+      { "name": "2 star", "count": 9800 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 156000 },
+      { "name": "5 star", "count": 276000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop",
+    "title": "Todoist: Task Manager & Planner",
+    "companyName": "Doist Inc",
+    "id": 7,
+    "description": "Powerful task management app that helps organize work and life with smart scheduling and collaboration.",
+    "size": 41.6,
+    "reviews": 328000,
+    "ratingAvg": 4.6,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 4100 },
+      { "name": "2 star", "count": 7800 },
+      { "name": "3 star", "count": 29000 },
+      { "name": "4 star", "count": 124000 },
+      { "name": "5 star", "count": 163100 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=400&fit=crop",
+    "title": "Trello: Project Boards",
+    "companyName": "Atlassian",
+    "id": 8,
+    "description": "Visual collaboration tool that creates a shared perspective on any project using boards, lists, and cards.",
+    "size": 73.2,
+    "reviews": 542000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 7200 },
+      { "name": "2 star", "count": 12800 },
+      { "name": "3 star", "count": 48000 },
+      { "name": "4 star", "count": 198000 },
+      { "name": "5 star", "count": 276000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=400&fit=crop",
+    "title": "Evernote: Note Taking App",
+    "companyName": "Evernote Corporation",
+    "id": 9,
+    "description": "Capture ideas, organize notes, and manage projects with a powerful note-taking and organization system.",
+    "size": 88.9,
+    "reviews": 615000,
+    "ratingAvg": 4.4,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 9800 },
+      { "name": "2 star", "count": 18200 },
+      { "name": "3 star", "count": 62000 },
+      { "name": "4 star", "count": 225000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=400&fit=crop",
+    "title": "Slack: Team Communication",
+    "companyName": "Slack Technologies",
+    "id": 10,
+    "description": "Transform team communication with organized channels, direct messaging, and seamless integrations.",
+    "size": 102.5,
+    "reviews": 785000,
+    "ratingAvg": 4.6,
+    "downloads": 35000000,
+    "ratings": [
+      { "name": "1 star", "count": 11200 },
+      { "name": "2 star", "count": 22800 },
+      { "name": "3 star", "count": 78000 },
+      { "name": "4 star", "count": 298000 },
+      { "name": "5 star", "count": 375000 }
+    ]
+  }
+]
