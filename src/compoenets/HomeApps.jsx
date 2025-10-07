@@ -1,9 +1,9 @@
 import React from "react";
-import download from '../assets/download.png'
-import ratings from '../assets/star.png'
+import download from "../assets/download.png";
+import ratings from "../assets/star.png";
 
-const HomeApps = ({data}) => {
-  const {image, title, downloads, ratingAvg} = data
+const AppCard = ({ data }) => {
+  const { image, title, downloads, ratingAvg } = data;
 
   return (
     <div className="card bg-base-100 shadow-sm transition duration-500 hover:-translate-y-6">
@@ -14,7 +14,7 @@ const HomeApps = ({data}) => {
           className="w-32 h-32 object-contain"
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = 'https://via.placeholder.com/200x200?text=No+Image';
+            e.target.src = "https://via.placeholder.com/200x200?text=No+Image";
           }}
         />
       </figure>
@@ -37,4 +37,4 @@ const HomeApps = ({data}) => {
   );
 };
 
-export default HomeApps;
+export default AppCard;

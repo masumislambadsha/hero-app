@@ -8,12 +8,14 @@ const useAllAppsData = () => {
 
   useEffect(() => {
     setLoading(true);
-     axios("../allAppsData.json")
-      .then((data) => setDatas(data.data))
-      .catch((err) => setError(err))
-      .finally(() => setLoading(false));
+    setTimeout(() => {
+      axios("../allAppsData.json")
+        .then((data) => setDatas(data.data))
+        .catch((err) => setError(err))
+        .finally(() => setLoading(false));
+    },200);
   }, []);
-  return {datas, loading, error}
+  return { datas, loading, error };
 };
 
 export default useAllAppsData;

@@ -1,21 +1,28 @@
-import React, { useState } from 'react';
-import useAllAppsData from '../Hooks/useAllAppsData';
-import HomeApps from '../compoenets/HomeApps';
+import React, { useState } from "react";
+import useAllAppsData from "../Hooks/useAllAppsData";
+import AppCard from "../compoenets/HomeApps";
+import errImg from "../assets/App-Error.png";
+import LoadingSpinner from "../compoenets/LoadingSpinner";
 
 const AllApps = () => {
-  const {datas, loading, error} = useAllAppsData();
+  const { datas, loading } = useAllAppsData();
   const [search, setSearch] = useState("");
 
   const term = search.trim().toLowerCase();
   const searchedDatas = term
-    ? datas.filter(data => data.title.toLowerCase().includes(term))
+    ? datas.filter((data) => data.title.toLowerCase().includes(term))
     : datas;
 
-  if (loading) return <div className="text-center mt-20">Loading...</div>;
-  if (error) return <div className="text-center mt-20">Error loading apps</div>;
+  // useEffect(()=>{
+  //   <LoadingSpinner></LoadingSpinner>
+  // },[datas])
+
+  if (loading) {
+    return <LoadingSpinner />;
+  }
 
   return (
-    <div className='container mx-auto px-4'>
+    <div className="container mx-auto px-4">
       <div className="text-center mt-[80px]">
         <h3 className="font-bold text-5xl text-[#001931] mb-4">
           Our All Applications
@@ -41,11 +48,21 @@ const AllApps = () => {
         />
       </div>
 
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-10 md:pb-10">
-        {searchedDatas.map((data) => (
-          <HomeApps key={data.id} data={data} />
-        ))}
-      </div>
+      {searchedDatas.length === 0 ? (
+        <div className="text-center py-10">
+          <img src={errImg} alt="No App Found" className="w-80 mx-auto mb-6" />
+          <h2 className="text-3xl font-bold text-gray-700 mb-3">
+            No App Found
+          </h2>
+          <p className="text-gray-500">Try searching with different keywords</p>
+        </div>
+      ) : (
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 pb-10">
+          {searchedDatas.map((data) => (
+            <AppCard key={data.id} data={data} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };

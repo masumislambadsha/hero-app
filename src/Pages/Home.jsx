@@ -2,12 +2,19 @@ import React from "react";
 import appStore from "../assets/appstore.png";
 import playStore from "../assets/playstore.png";
 import heroImg from "../assets/hero.png";
-import useHomeData from "../Hooks/useHomeData";
-import HomeApps from "../compoenets/HomeApps";
+import AppCard from "../compoenets/HomeApps";
 import { Link } from "react-router";
+import LoadingSpinner from "../compoenets/LoadingSpinner";
+import useAllAppsData from "../Hooks/useAllAppsData";
 
 const HomePage = () => {
-  const { datas } = useHomeData();
+  const { datas, loading } = useAllAppsData();
+
+  const homeData = datas.slice(0, 8);
+
+  if (loading) {
+    return <LoadingSpinner></LoadingSpinner>;
+  }
 
   return (
     <div className="my-[80px] ">
@@ -80,16 +87,18 @@ const HomePage = () => {
         </p>
       </div>
       <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-10 md:px-30">
-        {datas.map((data) => (
-          <HomeApps key={data.id} data={data}></HomeApps>
+        {homeData.map((data) => (
+          <AppCard key={data.id} data={data}></AppCard>
         ))}
       </div>
       <div className="flex justify-center items-center mt-10">
-        <Link to='/apps'  className="btn rounded-lg px-[30px] py-[25px] text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
-        Show All
-      </Link>
+        <Link
+          to="/apps"
+          className="btn rounded-lg px-[30px] py-[25px] text-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
+        >
+          Show All
+        </Link>
       </div>
-
     </div>
   );
 };

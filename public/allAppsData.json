@@ -360,24 +360,6 @@
     ]
   },
   {
-    "image": "https://cdn.simpleicons.org/trello/0052CC",
-    "title": "Trello: Project Boards",
-    "companyName": "Atlassian",
-    "id": 21,
-    "description": "Visual collaboration tool that creates a shared perspective on any project using boards, lists, and cards.",
-    "size": 73.2,
-    "reviews": 542000,
-    "ratingAvg": 4.5,
-    "downloads": "20M",
-    "ratings": [
-      { "name": "1 star", "count": 7200 },
-      { "name": "2 star", "count": 12800 },
-      { "name": "3 star", "count": 48000 },
-      { "name": "4 star", "count": 198000 },
-      { "name": "5 star", "count": 276000 }
-    ]
-  },
-  {
     "image": "https://cdn.simpleicons.org/docker/2496ED",
     "title": "Docker Desktop",
     "companyName": "Docker Inc.",
