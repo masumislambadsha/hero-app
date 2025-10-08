@@ -5,7 +5,7 @@ import github from "../assets/githubLogo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-base-100 shadow">
+    <div className="bg-base-100 shadow sticky top-0 z-10">
       <div className="container mx-auto navbar">
         <div className="navbar-start">
           <div className="dropdown">
