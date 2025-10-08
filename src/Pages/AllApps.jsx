@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import useAllAppsData from "../Hooks/useAllAppsData";
 import AppCard from "../compoenets/HomeApps";
 import errImg from "../assets/App-Error.png";
@@ -7,15 +7,29 @@ import LoadingSpinner from "../compoenets/LoadingSpinner";
 const AllApps = () => {
   const { datas, loading } = useAllAppsData();
   const [search, setSearch] = useState("");
+  const [searchLoading, setSearchLoading] = useState(false);
+  const [searchedDatas, setSearchedDatas] = useState([]);
 
-  const term = search.trim().toLowerCase();
-  const searchedDatas = term
-    ? datas.filter((data) => data.title.toLowerCase().includes(term))
-    : datas;
+  useEffect(() => {
+    const term = search.trim().toLowerCase();
 
-  // useEffect(()=>{
-  //   <LoadingSpinner></LoadingSpinner>
-  // },[datas])
+    if (term) {
+      setSearchLoading(true);
+
+      const timer = setTimeout(() => {
+        const filtered = datas.filter((data) =>
+          data.title.toLowerCase().includes(term)
+        );
+        setSearchedDatas(filtered);
+        setSearchLoading(false);
+      }, 500); // 500ms delay for spinner visibility
+
+      return () => clearTimeout(timer);
+    } else {
+      setSearchedDatas(datas);
+      setSearchLoading(false);
+    }
+  }, [search, datas]);
 
   if (loading) {
     return <LoadingSpinner />;
@@ -48,7 +62,9 @@ const AllApps = () => {
         />
       </div>
 
-      {searchedDatas.length === 0 ? (
+      {searchLoading ? (
+        <LoadingSpinner />
+      ) : searchedDatas.length === 0 ? (
         <div className="text-center py-10">
           <img src={errImg} alt="No App Found" className="w-80 mx-auto mb-6" />
           <h2 className="text-3xl font-bold text-gray-700 mb-3">
