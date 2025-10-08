@@ -38,39 +38,40 @@ npm install
 npm start
 
 
-4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Open [https://heroappio.netlify.app/](https://heroappio.netlify.app/) to view it in your browser.
 
 ## 🏗️ Project Structure
-
+```
+HERO-APP/
 ├── node_modules/
 ├── public/
-│ └── apps.json
+│   └── apps.json
 ├── src/
-│ ├── assets/
-│ │ └── images/
-│ ├── components/
-│ │ ├── ErrorPage.jsx
-│ │ ├── Footer.jsx
-│ │ ├── Home/Apps.jsx
-│ │ ├── LoadingSpinner.jsx
-│ │ ├── Navbar.jsx
-│ │ └── Root.jsx
-│ ├── Pages/
-│ │ ├── About.jsx
-│ │ ├── AppDetails.jsx
-│ │ ├── Home.jsx
-│ │ └── InstalledApps.jsx
-│ ├── Routes/
-│ │ └── Routes.jsx
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── ErrorPage.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Home/Apps.jsx
+│   │   ├── LoadingSpinner.jsx
+│   │   ├── Navbar.jsx
+│   │   └── Root.jsx
+│   ├── Pages/
+│   │   ├── About.jsx
+│   │   ├── AppDetails.jsx
+│   │   ├── Home.jsx
+│   │   └── InstalledApps.jsx
+│   ├── Routes/
+│   │   └── Routes.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
 ├── package.json
 └── vite.config.js
-
+```
 
 ## 💡 Key Components
 
