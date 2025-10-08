@@ -33,7 +33,7 @@ const HomePage = () => {
         simpler, smarter, and more exciting. Our goal is to turn your ideas into
         digital experiences that truly make an impact.
       </p>
-      <div className="space-x-4 my-10 mx-auto w-full text-center ">
+      <div className="flex justify-center items-center md:flex-row flex-col md:gap-0 gap-3 md:space-x-4 my-10 mx-auto w-full text-center ">
         <a href="https://play.google.com/">
           <button className="btn bg-transparent border-1 border-gray-300 font-bold text-[#001931] px-6 py-6  ">
             <img src={playStore} alt="" /> Google Play
@@ -42,7 +42,7 @@ const HomePage = () => {
 
         <a href="https://www.apple.com/app-store/">
           <button className="btn bg-transparent border-1 border-gray-300 font-bold text-[#001931] px-6 py-6  ">
-            <img src={appStore} alt="" /> App Store
+            <img src={appStore} alt="" /> Apple Store
           </button>
         </a>
       </div>
@@ -86,7 +86,7 @@ const HomePage = () => {
           Explore All Trending Apps on the Market developed by us{" "}
         </p>
       </div>
-      <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-10 md:px-30">
+      <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-5 gap-5 md:gap-10 md:px-30">
         {homeData.map((data) => (
           <AppCard key={data.id} data={data}></AppCard>
         ))}

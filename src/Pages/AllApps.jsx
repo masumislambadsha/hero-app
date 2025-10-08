@@ -57,7 +57,7 @@ const AllApps = () => {
           <p className="text-gray-500">Try searching with different keywords</p>
         </div>
       ) : (
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 pb-10">
+        <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-5 gap-5 md:gap-10 md:px-3 my-10">
           {searchedDatas.map((data) => (
             <AppCard key={data.id} data={data} />
           ))}

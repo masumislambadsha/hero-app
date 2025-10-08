@@ -6,7 +6,7 @@ const AppCard = ({ data }) => {
   const { image, title, downloads, ratingAvg } = data;
 
   return (
-    <div className="card bg-base-100 shadow-sm transition duration-500 hover:-translate-y-6">
+    <div className="card bg-base-100 shadow-sm transition duration-500 md:p-0 hover:-translate-y-6">
       <figure className="h-48 bg-base-200 flex items-center justify-center p-6">
         <img
           src={image}

@@ -9,7 +9,7 @@ const useAllAppsData = () => {
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
-      axios("../allAppsData.json")
+      axios("/allAppsData.json")
         .then((data) => setDatas(data.data))
         .catch((err) => setError(err))
         .finally(() => setLoading(false));
