@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0a1628] text-gray-300 py-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Hero Apps Section */}
+   
         <div className="space-y-4">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-blue-500 rounded-md flex items-center justify-center">
@@ -22,7 +22,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Company Section */}
+
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-lg">Company</h4>
           <ul className="space-y-2 text-sm">
@@ -34,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Section */}
+
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-lg">Contact</h4>
           <ul className="space-y-2 text-sm">
@@ -46,7 +46,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Icons Section */}
+
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-lg">Follow Us</h4>
           <div className="flex gap-4">
