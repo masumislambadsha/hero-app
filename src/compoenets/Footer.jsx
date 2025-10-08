@@ -41,7 +41,6 @@ const Footer = () => {
             <li><a href="" className="hover:text-white transition-colors">Support Center</a></li>
             <li><a href="" className="hover:text-white transition-colors">FAQ</a></li>
             <li><a href="" className="hover:text-white transition-colors">Contact Us</a></li>
-            <li><a href="mailto:info@heroapps.com" className="text-red-500 hover:text-red-400 transition-colors">info@heroapps.com</a></li>
             <li><a href="" className="hover:text-white transition-colors">Privacy Policy</a></li>
             <li><a href="" className="hover:text-white transition-colors">Terms of Service</a></li>
           </ul>
