@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { useParams } from "react-router";
+import { useParams, Navigate } from "react-router";
 import useAllAppsData from "../Hooks/useAllAppsData";
 import LoadingSpinner from "../compoenets/LoadingSpinner";
 import download from "../assets/icon-downloads.png";
 import review from "../assets/icon-review.png";
 import star from "../assets/icon-ratings.png";
+import ErrorPageEx from "../compoenets/ErroPageEx";
 
 import {
   BarChart,
@@ -16,13 +17,15 @@ import {
   ResponsiveContainer,
   Cell,
 } from "recharts";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import Swal from "sweetalert2";
 
 const AppDetails = () => {
   const { datas, loading } = useAllAppsData();
   const params = useParams();
   const id = parseInt(params.id);
+
+  const app = datas.find((data) => data.id === id);
 
   const [installed, setInstalled] = useState(() => {
     const storedApps = JSON.parse(localStorage.getItem("installed"));
@@ -32,14 +35,12 @@ const AppDetails = () => {
     return false;
   });
 
-  const app = datas.find((data) => data.id === id);
-
   if (loading) {
     return <LoadingSpinner />;
   }
 
   if (!app) {
-    return <div className="text-center py-20">App not found!</div>;
+    return <ErrorPageEx />;
   }
 
   const handleInstall = () => {
@@ -48,7 +49,6 @@ const AppDetails = () => {
     if (storedApps) {
       const repeated = storedApps.some((p) => p.id === app.id);
       if (repeated) {
-        toast.error("Already exists");
         return;
       }
       updated = [...storedApps, app];
@@ -62,11 +62,6 @@ const AppDetails = () => {
       html: `<h2 class="font-medium text-lg">You Have Installed ${app.title}</h2>`,
       icon: "success",
     });
-
-    // toast.success("App installed successfully!", {
-    //   autoClose: 3000,
-    //   position: "top-right",
-    // });
   };
 
   const chartData = [...app.ratings].reverse().map((rating, index) => ({

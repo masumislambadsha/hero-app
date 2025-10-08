@@ -5,7 +5,7 @@ import AllApps from "../Pages/AllApps";
 import InstalledApps from "../Pages/InstalledApps";
 import AppDetails from "../Pages/AppDetails";
 import ErrorPage from "../compoenets/ErrorPage";
-import ErrorPageEx from "../compoenets/ErroPageAi";
+import ErrorPageEx from "../compoenets/ErroPageEx";
 
 const router = createBrowserRouter([
   {
@@ -23,15 +23,11 @@ const router = createBrowserRouter([
         Component: AllApps,
       },
       {
-        path: "/apps/:random",
-        Component: ErrorPageEx,
-      },
-      {
         path: "/installation",
         Component: InstalledApps,
       },
       {
-        path: "/details/:id",
+        path: "/apps/:id",
         Component: AppDetails,
       },
     ],

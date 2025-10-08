@@ -1,18 +1,17 @@
 import React from 'react';
 import { Facebook, Youtube, Twitter, Instagram } from 'lucide-react';
+import footeLogo from '../assets/logo-footer.png'
 
 const Footer = () => {
   return (
     <footer className="bg-[#0a1628] text-gray-300 py-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-   
+
         <div className="space-y-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-500 rounded-md flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M5 3l7 7-7 7V3z"/>
-              </svg>
-            </div>
+          
+              <img src={footeLogo} alt="" />
+          
             <h3 className="text-white text-xl font-semibold">Hero Apps</h3>
           </div>
           <p className="text-sm text-gray-400 leading-relaxed">
@@ -50,16 +49,16 @@ const Footer = () => {
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-lg">Follow Us</h4>
           <div className="flex gap-4">
-            <a href="https://facebook.com" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
+            <a href="" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
               <Facebook className="w-6 h-6" />
             </a>
-            <a href="https://youtube.com" className="text-gray-400 hover:text-white transition-colors" aria-label="YouTube">
+            <a href="" className="text-gray-400 hover:text-white transition-colors" aria-label="YouTube">
               <Youtube className="w-6 h-6" />
             </a>
-            <a href="https://twitter.com" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
+            <a href="" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
               <Twitter className="w-6 h-6" />
             </a>
-            <a href="https://instagram.com" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
+            <a href="" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
               <Instagram className="w-6 h-6" />
             </a>
           </div>

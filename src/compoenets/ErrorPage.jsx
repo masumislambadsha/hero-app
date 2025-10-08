@@ -37,13 +37,13 @@ const ErrorPage = () => {
         <div className="flex gap-4 justify-center">
           <button
             onClick={() => navigate("/")}
-            className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition"
+            className="bg-[#9f62f2] text-white px-6 py-3  font-medium hover:bg-blue-700 transition"
           >
             Go Home
           </button>
           <button
             onClick={() => navigate(-1)}
-            className="bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-300 transition"
+            className="bg-[#9f62f2] text-white px-6 py-3  font-medium hover:bg-blue-700  transition"
           >
             Go Back
           </button>

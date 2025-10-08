@@ -9,8 +9,8 @@ const ErrorPageEx = () => {
       <div className="text-center">
 
         <div className="relative mb-8">
-          <h1 className="text-[200px] md:text-[300px] font-black text-white opacity-20 select-none animate-pulse">
-            404
+          <h1 className="text-[100px] md:text-[100px] font-black text-white opacity-20 select-none animate-pulse pt-[105px]">
+            APP DOESN'T EXIST
           </h1>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
             <div className="flex justify-center items-center gap-4 mb-4">
@@ -78,7 +78,7 @@ const ErrorPageEx = () => {
           </div>
         </div>
 
-       
+
         <div className="fixed top-20 left-10 animate-float">
           <div className="text-6xl opacity-20">🚀</div>
         </div>
