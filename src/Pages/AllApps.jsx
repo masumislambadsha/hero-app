@@ -22,7 +22,7 @@ const AllApps = () => {
         );
         setSearchedDatas(filtered);
         setSearchLoading(false);
-      }, 500); // 500ms delay for spinner visibility
+      }, 300);
 
       return () => clearTimeout(timer);
     } else {

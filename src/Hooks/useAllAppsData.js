@@ -13,7 +13,7 @@ const useAllAppsData = () => {
         .then((data) => setDatas(data.data))
         .catch((err) => setError(err))
         .finally(() => setLoading(false));
-    },200);
+    },300);
   }, []);
   return { datas, loading, error };
 };
