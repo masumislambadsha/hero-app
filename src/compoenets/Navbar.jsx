@@ -67,7 +67,10 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <img src={logo} className="w-[40px] h-[40px]" alt="" />
+          <Link to='/'>
+          <img src={logo} className="cursor-pointer w-[40px] h-[40px]" alt="" />
+          </Link>
+
           <Link to="/">
             <p
               className="btn-ghost text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2]
