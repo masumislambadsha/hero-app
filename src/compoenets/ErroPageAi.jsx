@@ -1,8 +1,7 @@
-import React from 'react';
-import { useNavigate } from 'react-router';
+import React from "react";
+import { useNavigate } from "react-router";
 
-
-const ErrorPageAi = () => {
+const ErrorPageEx = () => {
   const navigate = useNavigate();
 
   return (
@@ -16,8 +15,14 @@ const ErrorPageAi = () => {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
             <div className="flex justify-center items-center gap-4 mb-4">
               <div className="w-20 h-20 bg-yellow-400 rounded-full animate-bounce"></div>
-              <div className="w-20 h-20 bg-pink-400 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-              <div className="w-20 h-20 bg-green-400 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+              <div
+                className="w-20 h-20 bg-pink-400 rounded-full animate-bounce"
+                style={{ animationDelay: "0.1s" }}
+              ></div>
+              <div
+                className="w-20 h-20 bg-green-400 rounded-full animate-bounce"
+                style={{ animationDelay: "0.2s" }}
+              ></div>
             </div>
           </div>
         </div>
@@ -44,14 +49,15 @@ const ErrorPageAi = () => {
             Oops! App Not Found
           </h2>
           <p className="text-xl text-white/80 mb-8">
-            The app you're looking for seems to have wandered off into the digital void.
-            Don't worry, even the best explorers get lost sometimes!
+            The app you're looking for seems to have wandered off into the
+            digital void. Don't worry, even the best explorers get lost
+            sometimes!
           </p>
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
-              onClick={() => navigate('/')}
+              onClick={() => navigate("/")}
               className="bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold py-4 px-8 rounded-full hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-2xl"
             >
               🏠 Go Home
@@ -64,10 +70,10 @@ const ErrorPageAi = () => {
             </button>
           </div>
 
-        
           <div className="mt-8 pt-8 border-t border-white/20">
             <p className="text-white/60 text-sm">
-              💡 Fun Fact: 404 errors got their name from Room 404 at CERN, where the web was born!
+              💡 Fun Fact: 404 errors got their name from Room 404 at CERN,
+              where the web was born!
             </p>
           </div>
         </div>
@@ -76,20 +82,30 @@ const ErrorPageAi = () => {
         <div className="fixed top-20 left-10 animate-float">
           <div className="text-6xl opacity-20">🚀</div>
         </div>
-        <div className="fixed top-40 right-20 animate-float" style={{ animationDelay: '0.5s' }}>
+        <div
+          className="fixed top-40 right-20 animate-float"
+          style={{ animationDelay: "0.5s" }}
+        >
           <div className="text-6xl opacity-20">⭐</div>
         </div>
-        <div className="fixed bottom-20 left-20 animate-float" style={{ animationDelay: '1s' }}>
+        <div
+          className="fixed bottom-20 left-20 animate-float"
+          style={{ animationDelay: "1s" }}
+        >
           <div className="text-6xl opacity-20">🌙</div>
         </div>
-        <div className="fixed bottom-40 right-10 animate-float" style={{ animationDelay: '1.5s' }}>
+        <div
+          className="fixed bottom-40 right-10 animate-float"
+          style={{ animationDelay: "1.5s" }}
+        >
           <div className="text-6xl opacity-20">✨</div>
         </div>
       </div>
 
       <style jsx>{`
         @keyframes float {
-          0%, 100% {
+          0%,
+          100% {
             transform: translateY(0px);
           }
           50% {
@@ -115,4 +131,4 @@ const ErrorPageAi = () => {
   );
 };
 
-export default ErrorPageAi;
+export default ErrorPageEx;

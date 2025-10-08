@@ -5,13 +5,13 @@ import AllApps from "../Pages/AllApps";
 import InstalledApps from "../Pages/InstalledApps";
 import AppDetails from "../Pages/AppDetails";
 import ErrorPage from "../compoenets/ErrorPage";
-import ErrorPageAi from "../compoenets/ErroPageAi";
+import ErrorPageEx from "../compoenets/ErroPageAi";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
-    errorElement:<ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage></ErrorPage>,
     hydrateFallbackElement: <h2>Loading...</h2>,
     children: [
       {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/apps/:random",
-        Component: ErrorPageAi,
+        Component: ErrorPageEx,
       },
       {
         path: "/installation",
@@ -33,7 +33,6 @@ const router = createBrowserRouter([
       {
         path: "/details/:id",
         Component: AppDetails,
-
       },
     ],
   },
