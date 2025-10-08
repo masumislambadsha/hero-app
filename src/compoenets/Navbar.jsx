@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container mx-auto navbar">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden pl-0 pr-1">
+            <div tabIndex={0} role="button" className="btn btn-ghost md:px-5 lg:hidden md:pr-3 pl-0 pr-1  ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -120,7 +120,6 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a
-            target="_blank"
             href="https://github.com/masumislambadsha"
             className="btn rounded-lg px-[15px] py-[21px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white"
           >
