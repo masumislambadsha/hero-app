@@ -86,7 +86,7 @@ const HomePage = () => {
           Explore All Trending Apps on the Market developed by us{" "}
         </p>
       </div>
-      <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-5 gap-5 md:gap-10 md:px-30">
+      <div className="container mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-5 gap-5 md:gap-10 lg:px-30">
         {homeData.map((data) => (
           <AppCard key={data.id} data={data}></AppCard>
         ))}
