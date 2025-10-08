@@ -7,7 +7,7 @@ const ErrorPageEx = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-800 flex items-center justify-center px-4">
       <div className="text-center">
-        {/* Animated 404 */}
+
         <div className="relative mb-8">
           <h1 className="text-[200px] md:text-[300px] font-black text-white opacity-20 select-none animate-pulse">
             404
@@ -27,7 +27,7 @@ const ErrorPageEx = () => {
           </div>
         </div>
 
-        {/* Error Message */}
+
         <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 md:p-12 shadow-2xl border border-white/20 max-w-2xl mx-auto">
           <div className="mb-6">
             <svg
@@ -54,7 +54,7 @@ const ErrorPageEx = () => {
             sometimes!
           </p>
 
-          {/* Action Buttons */}
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => navigate("/")}
@@ -78,7 +78,7 @@ const ErrorPageEx = () => {
           </div>
         </div>
 
-        {/* Floating Icons */}
+       
         <div className="fixed top-20 left-10 animate-float">
           <div className="text-6xl opacity-20">🚀</div>
         </div>
