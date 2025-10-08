@@ -42,7 +42,7 @@ const HomePage = () => {
 </a>
 
 <a href="https://www.apple.com/app-store/">
-  <button className="btn bg-white/20 backdrop-blur-md border border-white/30 font-bold text-[#001931] p-6  hover:bg-white/30 hover:border-white/40  hover:scale-104 hover:shadow-2xl transition-all duration-300 shadow-lg  flex items-center gap-2">
+  <button className="btn bg-white/20 backdrop-blur-md border border-white/30 font-bold text-[#001931] p-6  hover:bg-white/30 hover:border-white/40  hover:scale-104 hover:shadow-2xl transition-all duration-300 shadow-lg   flex items-center gap-2">
     <img src={appStore} alt="" className="w-6 h-6" />
     Apple Store
   </button>

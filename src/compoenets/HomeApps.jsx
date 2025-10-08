@@ -27,11 +27,11 @@ const AppCard = ({ data }) => {
               {title}
             </h2>
             <div className="card-actions justify-between mt-2">
-              <div className="bg-white/30 backdrop-blur-md px-3 py-1.5 rounded-full text-[#00D390] text-sm gap-1.5 flex items-center border border-white/40 hover:bg-white/40 transition-all duration-300">
+              <div className="bg-[#F1F5E8] backdrop-blur-md px-3 py-1.5 rounded-full text-[#00D390] text-sm gap-1.5 flex items-center border border-white/40 hover:bg-white/40 transition-all duration-300">
                 <img src={download} alt="" className="w-3.5 h-3.5" />
                 {downloads}
               </div>
-              <div className="bg-white/30 backdrop-blur-md px-3 py-1.5 rounded-full text-[#FF8811] text-sm gap-1.5 flex items-center border border-white/40 hover:bg-white/40 transition-all duration-300">
+              <div className="bg-[#F1F5E8] backdrop-blur-md px-3 py-1.5 rounded-full text-[#FF8811] text-sm gap-1.5 flex items-center border border-white/40 hover:bg-white/40 transition-all duration-300">
                 <img src={ratings} alt="" className="w-3.5 h-3.5" />
                 {ratingAvg}
               </div>
