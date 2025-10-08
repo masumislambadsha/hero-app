@@ -10,7 +10,7 @@ import useAllAppsData from "../Hooks/useAllAppsData";
 const HomePage = () => {
   const { datas, loading } = useAllAppsData();
 
-  const homeData = datas.slice(16, 24);
+  const homeData = datas.slice(0, 8);
 
   if (loading) {
     return <LoadingSpinner></LoadingSpinner>;
