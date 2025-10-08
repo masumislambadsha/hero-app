@@ -97,7 +97,7 @@ const handleRemove = (id) => {
               <h3 className="md:card-title text-center text-xl font-bold ml-1">
                 {installedApp.title}
               </h3>
-              <div className="space-x-6 mt-1 text-center">
+              <div className="space-x-6 mt-1 md:text-start text-center">
                 <p className="text-[#00D390] md:text-start text-center font-semibold inline">
                   <span>
                     <img src={download} className="pr-2 inline pl-" alt="" />
@@ -116,7 +116,7 @@ const handleRemove = (id) => {
                 </p>
               </div>
             </div>
-            <div className="px-4 py-2 md:py-0 flex md:justify-center justify-center items-center gap-4">
+            <div className="px-4 py-2 md:py-0 flex  justify-center items-center gap-4">
               <button
                 onClick={() => handleRemove(installedApp.id)}
                 className="btn rounded-lg  bg-[#00D390] text-white btn-outline"
