@@ -26,11 +26,11 @@ const Footer = () => {
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-lg">Company</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="/about" className="hover:text-white transition-colors">About Us</a></li>
-            <li><a href="/careers" className="hover:text-white transition-colors">Careers</a></li>
-            <li><a href="/team" className="hover:text-white transition-colors">Our Team</a></li>
-            <li><a href="/newsroom" className="hover:text-white transition-colors">Newsroom</a></li>
-            <li><a href="/partners" className="hover:text-white transition-colors">Partners</a></li>
+            <li><a href="" className="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Careers</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Our Team</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Newsroom</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Partners</a></li>
           </ul>
         </div>
 
@@ -38,12 +38,12 @@ const Footer = () => {
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-lg">Contact</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="/support" className="hover:text-white transition-colors">Support Center</a></li>
-            <li><a href="/faq" className="hover:text-white transition-colors">FAQ</a></li>
-            <li><a href="/contact" className="hover:text-white transition-colors">Contact Us</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Support Center</a></li>
+            <li><a href="" className="hover:text-white transition-colors">FAQ</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Contact Us</a></li>
             <li><a href="mailto:info@heroapps.com" className="text-red-500 hover:text-red-400 transition-colors">info@heroapps.com</a></li>
-            <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
-            <li><a href="/terms" className="hover:text-white transition-colors">Terms of Service</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Privacy Policy</a></li>
+            <li><a href="" className="hover:text-white transition-colors">Terms of Service</a></li>
           </ul>
         </div>
 

@@ -50,7 +50,7 @@ const handleRemove = (id) => {
   return (
     <div className="container mx-auto my-20">
       <div className="text-center mt-[80px]">
-        <h3 className="font-bold text-5xl text-[#001931] mb-4">
+        <h3 className="font-bold text-5xl text-[#001931] mb-4 px-1">
          Your Installed Apps
         </h3>
         <p className="font-normal text-lg text-[#627382] my-5">
@@ -58,7 +58,7 @@ const handleRemove = (id) => {
         </p>
       </div>
       <div
-        className="flex justify-between py-5 items-center"
+        className="flex justify-between px-3 py-5 items-center"
         style={{
           justifyContent: "space-between",
         }}
@@ -86,9 +86,9 @@ const handleRemove = (id) => {
             key={installedApp.id}
             className=" card md:card-side bg-base-100 shadow-lg border-1 border-gray-400 "
           >
-            <figure className="pl-2">
+            <figure className="md:pl-2 p-5">
               <img
-                className=" p-3 rounded-2xl  bg-[#D9D9D9] md:h-20 md:w-20 object-cover"
+                className=" md:p-3 p-10 rounded-2xl  bg-[#D9D9D9] md:h-20 md:w-20 object-cover"
                 src={installedApp.image}
                 alt={installedApp.name}
               />
@@ -97,7 +97,7 @@ const handleRemove = (id) => {
               <h3 className="md:card-title text-center text-xl font-bold ml-1">
                 {installedApp.title}
               </h3>
-              <div className="space-x-6 mt-1">
+              <div className="space-x-6 mt-1 text-center">
                 <p className="text-[#00D390] md:text-start text-center font-semibold inline">
                   <span>
                     <img src={download} className="pr-2 inline pl-" alt="" />
@@ -116,7 +116,7 @@ const handleRemove = (id) => {
                 </p>
               </div>
             </div>
-            <div className="px-4 py-2 md:py-0 flex md:justify-center justify-between items-center gap-4">
+            <div className="px-4 py-2 md:py-0 flex md:justify-center justify-center items-center gap-4">
               <button
                 onClick={() => handleRemove(installedApp.id)}
                 className="btn rounded-lg  bg-[#00D390] text-white btn-outline"
