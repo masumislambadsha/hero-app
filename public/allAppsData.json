@@ -4,7 +4,7 @@
     "title": "Adobe Photoshop",
     "companyName": "Adobe Inc.",
     "id": 1,
-    "description": "Professional photo editing and graphic design software with advanced tools for digital imaging and creative projects.",
+    "description": "Adobe Photoshop is the industry-leading professional photo editing and graphic design software that has revolutionized digital imaging since its inception in 1988, providing comprehensive tools for photographers, graphic designers, digital artists, and creative professionals worldwide. This powerful application offers advanced features including sophisticated layer management with blend modes and opacity controls, non-destructive editing workflows through adjustment layers and smart objects, content-aware fill and patch tools powered by artificial intelligence, advanced selection tools like Select Subject and Object Selection, extensive filter collections including Neural Filters powered by Adobe Sensei AI, professional-grade color correction and grading capabilities, RAW image processing with Camera Raw integration, 3D modeling and texturing capabilities, video editing and timeline animation, custom brush creation and management, pattern and gradient design tools, perspective warp and puppet warp transformations, HDR imaging and panorama stitching, cloud document synchronization, seamless integration with Adobe Creative Cloud services, collaborative workflows through shared libraries and cloud documents, extensive plugin ecosystem including third-party extensions, mobile companion apps for iPad and iPhone, automated batch processing and actions recording, professional typography controls, mockup creation and presentation tools, web design capabilities with export to various formats, support for industry-standard file formats including PSD, TIFF, PNG, JPEG, and many more, making it the undisputed standard for professional image editing and creative visual content production across advertising, publishing, film, television, web design, and digital art industries worldwide.",
     "size": 2100.5,
     "reviews": 285000,
     "ratingAvg": 4.7,
@@ -22,7 +22,7 @@
     "title": "Figma: Design & Prototype",
     "companyName": "Figma Inc.",
     "id": 2,
-    "description": "Collaborative interface design tool for creating, prototyping, and sharing designs in real-time with teams.",
+    "description": "Figma revolutionizes the design process as a collaborative web-based interface design tool that enables teams to create, prototype, and share designs in real-time from anywhere in the world, fundamentally transforming how design teams work together across distributed locations and time zones. This groundbreaking platform combines powerful vector graphics editing with interactive prototyping, design systems management, and team collaboration features in a single browser-based application that requires no software installation. With its intuitive interface and comprehensive feature set including advanced vector networks, boolean operations, pen and pencil tools for natural drawing, auto-layout capabilities for responsive components that resize intelligently, component libraries with variants for managing design systems at scale, design tokens for maintaining consistency across platforms, constraints and resizing behavior controls, interactive prototyping with animations and transitions, Smart Animate for seamless micro-interactions, presentation mode for stakeholder reviews, version history and branching for tracking design evolution, FigJam whiteboarding for collaborative ideation, robust commenting system with threaded discussions and emoji reactions, developer handoff with CSS and code generation, asset export in multiple formats and resolutions, plugins and widgets ecosystem for extending functionality, integrations with popular tools like Slack, Jira, and Notion, offline mode for uninterrupted work, shared team libraries, organization-wide design systems, permissions and access controls for enterprise security, design file branching and merging, component analytics and usage tracking, making Figma essential for UI/UX designers, product managers, product teams, engineering teams, marketing teams, and design organizations building modern digital products and experiences across web, mobile, and embedded platforms.",
     "size": 156.3,
     "reviews": 198000,
     "ratingAvg": 4.8,
@@ -40,7 +40,7 @@
     "title": "Visual Studio Code",
     "companyName": "Microsoft Corporation",
     "id": 3,
-    "description": "Powerful code editor with IntelliSense, debugging, Git integration, and extensions for every programming language.",
+    "description": "Visual Studio Code stands as the most popular and powerful source code editor in the world, offering developers an exceptional coding experience with intelligent IntelliSense code completion, comprehensive debugging capabilities, integrated Git version control, and an extensive marketplace of thousands of extensions that customize every aspect of the development workflow. Built on the Electron framework and open-sourced by Microsoft, VS Code supports virtually every programming language through syntax highlighting, code formatting, linting, and language-specific tools including JavaScript, TypeScript, Python, Java, C++, C#, Go, Rust, PHP, Ruby, and countless others. The editor features an integrated terminal with multiple shell support, live share collaboration for pair programming and code reviews, remote development capabilities for SSH, containers, and WSL, DevContainers for reproducible development environments, workspace trust for security, customizable themes and color schemes, keyboard shortcuts and keymaps from other editors, multiple cursor editing, bracket matching and auto-closing, code folding and minimap navigation, search and replace with regex support, multi-file editing with split view, task automation and build integration, snippet creation and management, Emmet abbreviation support for rapid HTML/CSS writing, markdown preview and editing, notebook support for Jupyter and data science workflows, GitLens for advanced Git capabilities, Docker and Kubernetes integration, Azure cloud services integration, REST API testing tools, database management extensions, AI-powered code completion through GitHub Copilot integration, settings sync across devices, portable mode for USB installations, extensive documentation and tutorials, active community support, regular monthly updates with new features, performance optimizations for large projects, memory efficiency improvements, cross-platform support for Windows, macOS, and Linux, making it the preferred choice for millions of developers worldwide, from beginners learning to code to enterprise teams building large-scale applications.",
     "size": 312.8,
     "reviews": 542000,
     "ratingAvg": 4.9,
@@ -58,7 +58,7 @@
     "title": "Slack: Team Communication",
     "companyName": "Slack Technologies",
     "id": 4,
-    "description": "Transform team communication with organized channels, direct messaging, and seamless integrations for productivity.",
+    "description": "Slack transforms workplace communication by providing a comprehensive digital workspace that organizes team conversations into dedicated channels for different projects, topics, and teams, facilitates instant direct messaging between team members, and integrates seamlessly with hundreds of productivity tools and services that teams already use in their daily workflows. This powerful collaboration platform revolutionizes how modern teams communicate, coordinate, and stay productive by replacing email with organized conversations, reducing meeting overload with asynchronous communication, and centralizing all team knowledge in searchable archives. Features include threaded conversations for organizing discussions without clutter, file sharing with drag-and-drop uploads and preview capabilities, voice and video calls with screen sharing for remote collaboration, huddles for quick spontaneous audio conversations, Slack Connect for secure communication with external partners and clients, channels that can be public for transparency or private for sensitive discussions, direct messages and group conversations, customizable notifications with do not disturb schedules, comprehensive search across all messages and files, workflow automation through Slack bots and custom integrations, workflow builder for creating no-code automation, integration with over 2,400 apps including Google Drive, Dropbox, Trello, Asana, GitHub, Salesforce, and more, slash commands for quick actions, emoji reactions for lightweight acknowledgments, message editing and deletion with revision history, pinned messages for highlighting important information, reminders and scheduled messages, status updates and custom profiles, dark mode and theme customization, mobile apps for iOS and Android, desktop applications for Windows, macOS, and Linux, enterprise-grade security features including data encryption, two-factor authentication, compliance certifications for healthcare and financial services, single sign-on integration, data loss prevention, enterprise key management, audit logs and reporting, administrative controls for managing workspaces, retention policies for message and file storage, making Slack essential for remote teams, distributed organizations, hybrid workplaces, and any team that values transparency, productivity, and seamless collaboration across departments, time zones, and geographical boundaries.",
     "size": 195.4,
     "reviews": 785000,
     "ratingAvg": 4.6,
@@ -76,7 +76,7 @@
     "title": "Notion: Notes & Workspace",
     "companyName": "Notion Labs",
     "id": 5,
-    "description": "All-in-one workspace for notes, tasks, wikis, and databases that adapts to your workflow and team needs.",
+    "description": "Notion redefines productivity and knowledge management as an all-in-one workspace that seamlessly combines note-taking, task management, database creation, wiki building, project planning, and team collaboration into a single, highly customizable platform that adapts to any workflow, team structure, or organizational need. With its innovative block-based system where everything is a modular building block, users can create infinitely flexible documents that include rich text formatting, headings and subheadings, bulleted and numbered lists, toggle lists for collapsible sections, callout boxes for highlighting information, quotes and dividers, code blocks with syntax highlighting for multiple programming languages, mathematical equations with LaTeX support, embedded images and videos, file attachments, web bookmarks, tables with sortable columns, calendars for date management, timeline views for project visualization, kanban boards for workflow management, gallery views for visual organization, list views for detailed tracking, database relations for connecting information across pages, rollup properties for aggregating data, formula calculations for computed values, status properties with custom options, multi-select and single-select properties, person properties for assigning team members, file and media properties, template system for standardizing workflows, template buttons for one-click content generation, linked databases for showing the same data in multiple locations, filtered views for focusing on specific information, sorted views for organizing data, team collaboration features including real-time editing, inline comments and discussions, page sharing with customizable permissions, workspace members and guests management, version history and page restoration, cross-platform synchronization across web, Windows, macOS, iOS, and Android devices, offline mode for working without internet connection, API access for custom integrations and automation, Notion AI for content generation and assistance, web clipper browser extension for saving online content, import capabilities from Evernote, Trello, Asana, Google Docs, and more, export options to PDF, HTML, and Markdown formats, making Notion ideal for individuals organizing personal projects and life management, students taking notes and managing coursework, teams coordinating work and documentation, startups building their entire operational infrastructure, companies creating company wikis and knowledge bases, content creators planning and tracking creative projects, project managers coordinating complex initiatives, researchers organizing literature and findings, and anyone seeking a flexible digital workspace that grows and evolves with their changing needs.",
     "size": 128.7,
     "reviews": 485000,
     "ratingAvg": 4.7,
@@ -94,7 +94,7 @@
     "title": "Spotify: Music & Podcasts",
     "companyName": "Spotify AB",
     "id": 6,
-    "description": "Stream millions of songs and podcasts with personalized recommendations and curated playlists for every mood.",
+    "description": "Spotify leads the music streaming revolution by providing instant access to over 100 million songs, 5 million podcast titles, and exclusive audio content through its sophisticated recommendation algorithms, machine learning technology, and personalized playlists that understand individual listening preferences better than any other platform. The streaming service offers comprehensive features including high-quality audio streaming up to 320 kbps for premium subscribers, offline listening with download capabilities for enjoying music without internet connection, curated playlists like Discover Weekly that introduces new music every Monday based on listening history, Release Radar for new releases from favorite artists, Daily Mix collections that blend favorite tracks with fresh discoveries, Blend playlists for combining musical tastes with friends, collaborative playlists where multiple users can add and edit tracks together, social sharing features for sharing songs, albums, playlists, and podcasts on social media platforms, follow system for keeping up with friends' listening activity, personalized home screen with recommended content, search functionality with filters for songs, albums, artists, playlists, podcasts, and profiles, lyrics integration powered by Musixmatch for singing along, queue management for controlling playback order, crossfade transitions for seamless song changes, gapless playback for albums designed to flow continuously, equalizer settings for customizing sound preferences, car view mode for simplified driving interface, podcast creation tools through Spotify for Podcasters, exclusive content from Joe Rogan, Michelle Obama, and other major creators, behind-the-lyrics stories powered by Genius, concert discovery and ticket purchasing through integration with Songkick and Ticketmaster, artist pages with biographies, tour dates, and merchandise, year-end Spotify Wrapped personalized statistics showing listening habits, family plans for up to six accounts, duo plans for couples, student discounts, free ad-supported tier with shuffle play, premium tier without ads and unlimited skips, HiFi lossless audio quality coming soon, integration with smart speakers, gaming consoles, smart TVs, and wearable devices, voice control through Siri, Google Assistant, and Alexa, Canvas looping visuals for select tracks, podcast chapters for easier navigation, sleep timer for automatic playback stopping, private session mode for listening without affecting recommendations, desktop applications for Windows and macOS, mobile apps for iOS and Android, web player for browser-based listening, making Spotify the premier destination for music lovers, podcast enthusiasts, casual listeners, audiophiles, and anyone seeking the most comprehensive and personalized audio entertainment experience available today.",
     "size": 245.2,
     "reviews": 3200000,
     "ratingAvg": 4.5,
@@ -112,7 +112,7 @@
     "title": "Zoom: Video Conferencing",
     "companyName": "Zoom Video Communications",
     "id": 7,
-    "description": "HD video meetings, webinars, and screen sharing for remote collaboration with enterprise-grade security.",
+    "description": "Zoom has become the global standard for video conferencing and remote collaboration during the pandemic era and beyond, offering crystal-clear HD video meetings, large-scale webinars, virtual events, and hybrid workplace solutions with support for up to 1,000 video participants and 49 videos displayed on screen simultaneously. The comprehensive platform features gallery view for seeing all participants at once, speaker view for focusing on the active speaker, screen sharing with annotation tools for collaborative presentations, whiteboarding capabilities for visual brainstorming and ideation, breakout rooms for splitting large meetings into smaller group discussions, polling and Q&A features for audience engagement, raise hand functionality for orderly participation, reactions and emoji responses for non-verbal feedback, chat messaging during meetings for side conversations and link sharing, file transfer capabilities, recording options for local and cloud storage with automatic transcription, live streaming to YouTube, Facebook, and custom platforms, virtual backgrounds and background blur powered by AI for privacy and professionalism, beauty filter and appearance touch-up tools, custom branding with company logos and colors for enterprise accounts, waiting rooms for controlling meeting access and security, passcodes and encryption for secure communications, end-to-end encryption for sensitive discussions, host controls for managing participants including mute all, spotlight video, remove participants, assign co-hosts, calendar integration with Google Calendar, Outlook, and iCal for seamless scheduling, personal meeting IDs and instant meetings, scheduled recurring meetings, registration systems for webinars, practice sessions for webinar preparation, attendee attention tracking analytics, detailed usage reports and dashboards, integration with Slack, Microsoft Teams, Salesforce, and hundreds of other business tools, Zoom Phone for cloud-based telephony, Zoom Rooms for conference room systems, Zoom Events for large virtual and hybrid events, Zoom Apps and SDK for custom integrations, developer APIs for building on the platform, hardware compatibility with a wide range of cameras, microphones, and conference room equipment, mobile apps with full feature parity, accessibility features including closed captioning, keyboard shortcuts, and screen reader support, making Zoom indispensable for businesses, educational institutions, healthcare providers through HIPAA-compliant Zoom for Healthcare, government agencies, non-profit organizations, and individuals conducting remote meetings, virtual classrooms, telemedicine consultations, online events, family gatherings, and any form of video communication across the globe.",
     "size": 189.6,
     "reviews": 1200000,
     "ratingAvg": 4.4,
@@ -130,7 +130,7 @@
     "title": "Discord: Chat & Hangout",
     "companyName": "Discord Inc.",
     "id": 8,
-    "description": "Voice, video, and text communication designed for creating communities and hanging out with friends.",
+    "description": "Discord creates vibrant online communities through its feature-rich communication platform that seamlessly combines voice channels, video conferencing, and text chat in customizable servers designed for gaming communities, educational groups, business teams, hobbyist clubs, and social circles of all kinds. Originally created for gamers but now serving millions of communities worldwide, Discord offers comprehensive features including server organization with categories and channels for different topics, voice channels with high-quality audio for casual hangouts and gaming sessions, video calls supporting up to 50 participants, screen sharing and streaming for showing gameplay or presentations, Go Live streaming for broadcasting to server members, stage channels for hosting large audio events and podcasts with audience participation, forum channels for topic-based threaded discussions, announcement channels for important updates, role-based permission systems for managing access and privileges, custom emojis and stickers unique to each server, animated emojis and profile pictures for Nitro subscribers, soundboard for playing audio clips, voice activity detection for automatic microphone activation, push-to-talk functionality for controlled speaking, noise suppression and echo cancellation powered by Krisp technology, bot integration for automating tasks, playing music, moderating content, and adding custom functionality, slash commands for quick interactions with bots and server features, webhooks for integration with external services, server templates for quickly creating new communities, discovery system for finding public communities, verified and partnered servers for official communities, moderation tools including timeout, kick, ban, slowmode, verification levels, explicit content filtering, AutoMod for automated content moderation, audit logs for tracking administrative actions, server insights and analytics, welcome screens for onboarding new members, rules screening to ensure members read guidelines, membership screening with form questions, direct messages and group DMs with up to 10 people, friend system for maintaining connections across servers, activity status showing what game or app someone is using, custom status messages with emojis, rich presence integration for games showing detailed status, Spotify integration showing listening activity, YouTube Together and other Activities for hanging out, threads for organizing conversations within channels, replies and mentions for direct communication, message formatting with markdown, embeds for rich content display, file sharing up to 8MB free or 100MB with Nitro, message search and pinning, notification customization per channel or server, mobile apps for iOS and Android, desktop applications for Windows, macOS, and Linux, web browser access, developer mode for accessing IDs and technical features, Nitro subscription for enhanced features including higher upload limit, animated avatar and emoji, custom discriminator, server boosting, HD video streaming, Nitro Basic for essential enhancements at lower cost, server boosting system for unlocking perks like higher quality audio, custom server banner, vanity URL, additional emoji slots, enhanced stream quality, cross-platform voice and video communication, making Discord the premier platform for building and nurturing online communities around shared interests, creating safe spaces for friends to hang out, coordinating gaming sessions, hosting virtual events, running study groups, managing creative collaborations, and bringing people together in meaningful digital spaces.",
     "size": 215.8,
     "reviews": 2800000,
     "ratingAvg": 4.6,
@@ -141,294 +141,6 @@
       { "name": "3 star", "count": 320000 },
       { "name": "4 star", "count": 980000 },
       { "name": "5 star", "count": 1350000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/512px-Adobe_Illustrator_CC_icon.svg.png",
-    "title": "Adobe Illustrator",
-    "companyName": "Adobe Inc.",
-    "id": 9,
-    "description": "Vector graphics editor and design program for creating logos, icons, drawings, and complex illustrations.",
-    "size": 1950.8,
-    "reviews": 198000,
-    "ratingAvg": 4.5,
-    "downloads": "12M",
-    "ratings": [
-      { "name": "1 star", "count": 2800 },
-      { "name": "2 star", "count": 6500 },
-      { "name": "3 star", "count": 22000 },
-      { "name": "4 star", "count": 85000 },
-      { "name": "5 star", "count": 81700 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/github/181717",
-    "title": "GitHub Desktop",
-    "companyName": "GitHub Inc.",
-    "id": 10,
-    "description": "Git client application that helps manage repositories, branches, commits, and pull requests with a visual interface.",
-    "size": 185.4,
-    "reviews": 685000,
-    "ratingAvg": 4.7,
-    "downloads": "25M",
-    "ratings": [
-      { "name": "1 star", "count": 8200 },
-      { "name": "2 star", "count": 15800 },
-      { "name": "3 star", "count": 55000 },
-      { "name": "4 star", "count": 245000 },
-      { "name": "5 star", "count": 361000 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/googlechrome/4285F4",
-    "title": "Google Chrome",
-    "companyName": "Google LLC",
-    "id": 11,
-    "description": "Fast, secure, and customizable web browser with built-in Google services and extensive extension support.",
-    "size": 295.7,
-    "reviews": 4500000,
-    "ratingAvg": 4.3,
-    "downloads": "1.2B",
-    "ratings": [
-      { "name": "1 star", "count": 95000 },
-      { "name": "2 star", "count": 185000 },
-      { "name": "3 star", "count": 485000 },
-      { "name": "4 star", "count": 1580000 },
-      { "name": "5 star", "count": 2155000 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/firefoxbrowser/FF7139",
-    "title": "Mozilla Firefox",
-    "companyName": "Mozilla Corporation",
-    "id": 12,
-    "description": "Privacy-focused web browser with enhanced tracking protection and customizable interface for secure browsing.",
-    "size": 215.3,
-    "reviews": 2800000,
-    "ratingAvg": 4.4,
-    "downloads": "850M",
-    "ratings": [
-      { "name": "1 star", "count": 42000 },
-      { "name": "2 star", "count": 98000 },
-      { "name": "3 star", "count": 285000 },
-      { "name": "4 star", "count": 985000 },
-      { "name": "5 star", "count": 1390000 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/filezilla/BF0000",
-    "title": "FileZilla: FTP Client",
-    "companyName": "Tim Kosse",
-    "id": 13,
-    "description": "Cross-platform FTP application supporting FTP, FTPS and SFTP protocols for file transfers between computers.",
-    "size": 58.2,
-    "reviews": 125000,
-    "ratingAvg": 4.2,
-    "downloads": "95M",
-    "ratings": [
-      { "name": "1 star", "count": 3500 },
-      { "name": "2 star", "count": 8200 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 45000 },
-      { "name": "5 star", "count": 43300 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/steam/000000",
-    "title": "Steam Gaming Platform",
-    "companyName": "Valve Corporation",
-    "id": 14,
-    "description": "Digital distribution platform for purchasing, downloading, and playing video games with community features.",
-    "size": 485.9,
-    "reviews": 8500000,
-    "ratingAvg": 4.6,
-    "downloads": "1.8B",
-    "ratings": [
-      { "name": "1 star", "count": 125000 },
-      { "name": "2 star", "count": 285000 },
-      { "name": "3 star", "count": 685000 },
-      { "name": "4 star", "count": 2980000 },
-      { "name": "5 star", "count": 4425000 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/pycharm/000000",
-    "title": "PyCharm: Python IDE",
-    "companyName": "JetBrains",
-    "id": 15,
-    "description": "Integrated development environment for Python programming with debugging, testing, and intelligent code assistance.",
-    "size": 685.2,
-    "reviews": 425000,
-    "ratingAvg": 4.5,
-    "downloads": "18M",
-    "ratings": [
-      { "name": "1 star", "count": 6800 },
-      { "name": "2 star", "count": 15200 },
-      { "name": "3 star", "count": 42000 },
-      { "name": "4 star", "count": 165000 },
-      { "name": "5 star", "count": 196000 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/mysql/4479A1",
-    "title": "MySQL Workbench",
-    "companyName": "Oracle Corporation",
-    "id": 16,
-    "description": "Visual database design tool for MySQL database development, administration, and data modeling.",
-    "size": 385.7,
-    "reviews": 165000,
-    "ratingAvg": 4.1,
-    "downloads": "45M",
-    "ratings": [
-      { "name": "1 star", "count": 4200 },
-      { "name": "2 star", "count": 12500 },
-      { "name": "3 star", "count": 38000 },
-      { "name": "4 star", "count": 65000 },
-      { "name": "5 star", "count": 45300 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/react/61DAFB",
-    "title": "React Developer Tools",
-    "companyName": "Meta (Facebook)",
-    "id": 17,
-    "description": "Browser extension for debugging React component hierarchies in Chrome and Firefox developer tools.",
-    "size": 12.8,
-    "reviews": 285000,
-    "ratingAvg": 4.7,
-    "downloads": "85M",
-    "ratings": [
-      { "name": "1 star", "count": 2850 },
-      { "name": "2 star", "count": 8500 },
-      { "name": "3 star", "count": 28000 },
-      { "name": "4 star", "count": 95000 },
-      { "name": "5 star", "count": 150650 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/openai/412991",
-    "title": "ChatGPT Desktop",
-    "companyName": "OpenAI",
-    "id": 18,
-    "description": "AI-powered conversational assistant for answering questions, writing, coding, and creative tasks.",
-    "size": 125.6,
-    "reviews": 1250000,
-    "ratingAvg": 4.3,
-    "downloads": "185M",
-    "ratings": [
-      { "name": "1 star", "count": 28000 },
-      { "name": "2 star", "count": 65000 },
-      { "name": "3 star", "count": 185000 },
-      { "name": "4 star", "count": 485000 },
-      { "name": "5 star", "count": 487000 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/nextdotjs/000000",
-    "title": "Next.js Framework",
-    "companyName": "Vercel Inc.",
-    "id": 19,
-    "description": "React framework for production with hybrid static & server rendering, smart bundling, and route pre-fetching.",
-    "size": 2.5,
-    "reviews": 125000,
-    "ratingAvg": 4.9,
-    "downloads": "95M",
-    "ratings": [
-      { "name": "1 star", "count": 850 },
-      { "name": "2 star", "count": 2200 },
-      { "name": "3 star", "count": 8500 },
-      { "name": "4 star", "count": 38000 },
-      { "name": "5 star", "count": 75450 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/tailwindcss/06B6D4",
-    "title": "Tailwind CSS IntelliSense",
-    "companyName": "Tailwind Labs",
-    "id": 20,
-    "description": "VS Code extension providing intelligent autocomplete, syntax highlighting, and linting for Tailwind CSS.",
-    "size": 5.2,
-    "reviews": 385000,
-    "ratingAvg": 4.8,
-    "downloads": "125M",
-    "ratings": [
-      { "name": "1 star", "count": 2850 },
-      { "name": "2 star", "count": 8500 },
-      { "name": "3 star", "count": 32000 },
-      { "name": "4 star", "count": 125000 },
-      { "name": "5 star", "count": 216650 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/docker/2496ED",
-    "title": "Docker Desktop",
-    "companyName": "Docker Inc.",
-    "id": 22,
-    "description": "Platform for building, sharing, and running containerized applications with integrated developer tools.",
-    "size": 585.3,
-    "reviews": 485000,
-    "ratingAvg": 4.4,
-    "downloads": "65M",
-    "ratings": [
-      { "name": "1 star", "count": 12500 },
-      { "name": "2 star", "count": 28000 },
-      { "name": "3 star", "count": 68000 },
-      { "name": "4 star", "count": 185000 },
-      { "name": "5 star", "count": 191500 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/postman/FF6C37",
-    "title": "Postman API Platform",
-    "companyName": "Postman Inc.",
-    "id": 23,
-    "description": "API platform for building, testing, and managing APIs with collaboration tools and automated testing.",
-    "size": 245.8,
-    "reviews": 685000,
-    "ratingAvg": 4.6,
-    "downloads": "42M",
-    "ratings": [
-      { "name": "1 star", "count": 8500 },
-      { "name": "2 star", "count": 18200 },
-      { "name": "3 star", "count": 62000 },
-      { "name": "4 star", "count": 245000 },
-      { "name": "5 star", "count": 351300 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/git/F05032",
-    "title": "Git Version Control",
-    "companyName": "Git Community",
-    "id": 24,
-    "description": "Distributed version control system for tracking changes in source code during software development.",
-    "size": 45.2,
-    "reviews": 425000,
-    "ratingAvg": 4.8,
-    "downloads": "125M",
-    "ratings": [
-      { "name": "1 star", "count": 3200 },
-      { "name": "2 star", "count": 8500 },
-      { "name": "3 star", "count": 38000 },
-      { "name": "4 star", "count": 145000 },
-      { "name": "5 star", "count": 230300 }
-    ]
-  },
-  {
-    "image": "https://cdn.simpleicons.org/mongodb/47A248",
-    "title": "MongoDB Compass",
-    "companyName": "MongoDB Inc.",
-    "id": 25,
-    "description": "GUI for exploring MongoDB data, running queries, optimizing performance, and building aggregation pipelines.",
-    "size": 285.4,
-    "reviews": 285000,
-    "ratingAvg": 4.3,
-    "downloads": "28M",
-    "ratings": [
-      { "name": "1 star", "count": 5200 },
-      { "name": "2 star", "count": 15800 },
-      { "name": "3 star", "count": 48000 },
-      { "name": "4 star", "count": 125000 },
-      { "name": "5 star", "count": 91000 }
     ]
   }
 ]
