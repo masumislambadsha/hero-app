@@ -35,16 +35,19 @@ const HomePage = () => {
       </p>
       <div className="flex justify-center items-center md:flex-row flex-col md:gap-0 gap-3 md:space-x-4 my-10 mx-auto w-full text-center ">
         <a href="https://play.google.com/">
-          <button className="btn bg-transparent border-1 border-gray-300 font-bold text-[#001931] px-6 py-6  ">
-            <img src={playStore} alt="" /> Google Play
-          </button>
-        </a>
+  <button className="btn bg-white/20 backdrop-blur-md border border-white/30 font-bold text-[#001931] p-6 hover:bg-white/30 hover:border-white/40 hover:scale-104 hover:shadow-2xl  transition-all duration-300 shadow-lg  flex items-center gap-2">
+    <img src={playStore} alt="" className="w-6 h-6" />
+    Google Play
+  </button>
+</a>
 
-        <a href="https://www.apple.com/app-store/">
-          <button className="btn bg-transparent border-1 border-gray-300 font-bold text-[#001931] px-6 py-6  ">
-            <img src={appStore} alt="" /> Apple Store
-          </button>
-        </a>
+<a href="https://www.apple.com/app-store/">
+  <button className="btn bg-white/20 backdrop-blur-md border border-white/30 font-bold text-[#001931] p-6  hover:bg-white/30 hover:border-white/40  hover:scale-104 hover:shadow-2xl transition-all duration-300 shadow-lg  flex items-center gap-2">
+    <img src={appStore} alt="" className="w-6 h-6" />
+    Apple Store
+  </button>
+</a>
+
       </div>
       <img src={heroImg} className="mx-auto" alt="" />
       <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-16 px-6 overflow-hidden">
