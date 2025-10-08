@@ -53,13 +53,31 @@ const AllApps = () => {
             ({searchedDatas.length}) products found
           </span>
         </h1>
-        <input
-          type="search"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          placeholder="Search your desired product"
-          className="input input-bordered w-full max-w-xs"
-        />
+        <div className="relative w-full max-w-xl">
+          <input
+            type="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder=""
+            className="peer w-full pl-12 pr-4 py-4 pt-5 rounded-2xl bg-white/20 backdrop-blur-lg border border-white/30 text-gray-800 focus:outline-none focus:ring-2 focus:ring-white/50 shadow-xl transition-all duration-300 hover:bg-white/30"
+          />
+          <label className="absolute left-12 top-0 text-gray-600 text-base transition-all duration-300 pointer-events-none peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-4 peer-focus:text-[15px] peer-focus:top-1 peer-focus:text-blue-600 peer-[:not(:placeholder-shown)]:text-[15px] peer-[:not(:placeholder-shown)]:top-1 peer-[:not(:placeholder-shown)]:text-blue-600">
+            Search your desired product
+          </label>
+          <svg
+            className="absolute left-3 top-1/2 transform -translate-y-1/2 w-6 h-6 text-gray-600 peer-focus:text-blue-600 transition-colors duration-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </div>
       </div>
 
       {searchLoading ? (

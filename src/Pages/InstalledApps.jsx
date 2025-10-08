@@ -39,7 +39,7 @@ const InstalledApps = () => {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "Yes, delete it!"
+      confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
         const stored = JSON.parse(localStorage.getItem("installed"));
@@ -50,7 +50,7 @@ const InstalledApps = () => {
         Swal.fire({
           title: "Deleted!",
           text: "Your file has been deleted.",
-          icon: "success"
+          icon: "success",
         });
       }
     });
@@ -79,25 +79,38 @@ const InstalledApps = () => {
         <h1 className="text-3xl font-semibold">
           {sortedItems.length} product found
         </h1>
-        <label className="form-control w-49 max-w-2xl">
-          <select
-            className="select select-bordered"
-            value={sortOrder}
-            onChange={(e) => setSortOrder(e.target.value)}
-          >
-            <option value="none">Sort By Size</option>
-            <option value="small">Low-&gt;High</option>
-            <option value="large">High-&gt;low</option>
-          </select>
+        <label className="form-control w-full max-w-xs">
+          <div className="relative ">
+            <select
+              className="select w-full
+                 bg-white
+                 border-2 border-gray-200
+                 hover:border-blue-400 hover:-translate-y-1
+                 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 focus:-translate-y-1
+                 transition-all duration-300 ease-out
+                 cursor-pointer
+                 text-gray-800 font-semibold text-base
+                 shadow-md hover:shadow-2xl
+                 rounded-xl
+                 px-7 "
+              value={sortOrder}
+              onChange={(e) => setSortOrder(e.target.value)}
+            >
+              <option value="none">🎯 Sort By Size</option>
+              <option value="small">⬆️ Small to Large</option>
+              <option value="large">⬇️ Large to Small</option>
+            </select>
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-400 to-cyan-400 opacity-0 hover:opacity-10 transition-opacity duration-300 -z-10" />
+          </div>
         </label>
       </div>
-      <div className="space-y-6 md:p-0 p-2">
+      <div className="space-y-6 md:p-0 p-3">
         {sortedItems.map((installedApp) => (
           <div
             key={installedApp.id}
-            className="card md:card-side bg-base-100 shadow-lg border-1 border-gray-400"
+            className="card md:card-side bg-base-100 shadow-lg border-1 border-gray-400 md:py-0 py-5"
           >
-            <figure className="md:pl-2 p-5">
+            <figure className="md:pl-2 md:p-0 p-10">
               <img
                 className="md:p-3 p-10 rounded-2xl bg-[#D9D9D9] md:h-20 md:w-20 object-cover"
                 src={installedApp.image}
