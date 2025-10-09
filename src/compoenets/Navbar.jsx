@@ -89,7 +89,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "btn border-x-0 border-t-0 rounded-[0px] text-primary font-bold border-b-4 border-primary"
-                  : "btn"
+                  : "btn border-0"
               }
             >
               Home
@@ -99,8 +99,8 @@ const Navbar = () => {
               to="/apps"
               className={({ isActive }) =>
                 isActive
-                  ? "btn border-x-0 border-t-0  text-primary font-bold border-b-4 rounded-[0px]  border-primary"
-                  : "btn"
+                  ? "btn border-x-0 border-t-0  text-primary font-bold border-b-4 rounded-[0px] border-[#422ad5]"
+                  : "btn border-0"
               }
             >
               Apps
@@ -111,7 +111,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "btn border-x-0 border-t-0  rounded-[0px] text-primary font-bold border-b-4 border-primary"
-                  : "btn"
+                  : "btn border-0"
               }
             >
               Installation

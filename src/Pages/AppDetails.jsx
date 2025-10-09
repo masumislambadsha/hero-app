@@ -77,7 +77,7 @@ const AppDetails = () => {
         <div className=" px-4">
           <div className="bg-white rounded-2xl shadow-md p-6 md:p-8 mb-6 ">
             <div className="flex  justify-evenly flex-col md:flex-row items-center md:items-start md:gap-[100px]">
-              <div className="bg-white rounded-2xl p-4 border border-gray-200 shadow-sm">
+              <div className=" rounded-2xl p-4 border border-gray-200 shadow-sm">
                 <img
                   src={app.image}
                   alt={app.title}
@@ -103,7 +103,7 @@ const AppDetails = () => {
                       <span className="text-xs font-medium">Downloads</span>
                     </div>
                     <p className="text-2xl font-bold text-[#001931]">
-                      {app.downloads}
+                      {app.downloads}M
                     </p>
                   </div>
 

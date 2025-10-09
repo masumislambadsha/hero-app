@@ -23,9 +23,9 @@ const InstalledApps = () => {
   const sortedItems = (() => {
     const items = [...installedApps];
     if (sortOrder === "small") {
-      return items.sort((a, b) => a.size - b.size);
+      return items.sort((a, b) => a.downloads - b.downloads);
     } else if (sortOrder === "large") {
-      return items.sort((a, b) => b.size - a.size);
+      return items.sort((a, b) => b.downloads - a.downloads);
     } else {
       return items;
     }
@@ -79,7 +79,7 @@ const InstalledApps = () => {
         <h1 className="text-3xl font-semibold">
           {sortedItems.length} product found
         </h1>
-        <label className="form-control w-full max-w-xs">
+        <label className="form-control md:w-full max-w-xs">
           <div className="relative ">
             <select
               className="select w-full
@@ -92,32 +92,32 @@ const InstalledApps = () => {
                  text-gray-800 font-semibold text-base
                  shadow-md hover:shadow-2xl
                  rounded-xl
-                 px-7 "
+                 md:px-7 "
               value={sortOrder}
               onChange={(e) => setSortOrder(e.target.value)}
             >
-              <option value="none">🎯 Sort By Size</option>
-              <option value="small">⬆️ Small to Large</option>
-              <option value="large">⬇️ Large to Small</option>
+              <option value="none">🎯 Sort By Downloads</option>
+              <option value="small">⬆️ Low to High</option>
+              <option value="large">⬇️ High to Low</option>
             </select>
             <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-400 to-cyan-400 opacity-0 hover:opacity-10 transition-opacity duration-300 -z-10" />
           </div>
         </label>
       </div>
-      <div className="space-y-6 md:p-0 p-3">
+      <div className="space-y-6 md:p-0 p-7">
         {sortedItems.map((installedApp) => (
           <div
             key={installedApp.id}
-            className="card md:card-side bg-base-100 shadow-lg border-1 border-gray-400 md:py-0 py-5"
+            className="card md:card-side bg-[#ffffff] shadow-lg rounded-[25px]  md:py-0 py-5"
           >
             <figure className="md:pl-2 md:p-0 p-10">
               <img
-                className="md:p-3 p-10 rounded-2xl bg-[#D9D9D9] md:h-20 md:w-20 object-cover"
+                className="md:p-3 p-10 rounded md:h-20 md:w-20 object-cover"
                 src={installedApp.image}
                 alt={installedApp.name}
               />
             </figure>
-            <div className="card-body">
+            <div className="md:card-body pt-0">
               <h3 className="md:card-title text-center text-xl font-bold ml-1">
                 {installedApp.title}
               </h3>
@@ -126,7 +126,7 @@ const InstalledApps = () => {
                   <span>
                     <img src={download} className="pr-2 inline pl-" alt="" />
                   </span>
-                  {installedApp.downloads}{" "}
+                  {installedApp.downloads}M
                 </p>
                 <p className="text-[#00D390] md:text-start space-y-10 text-center font-semibold inline">
                   <span>

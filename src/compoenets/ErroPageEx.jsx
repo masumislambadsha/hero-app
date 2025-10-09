@@ -72,8 +72,7 @@ const ErrorPageEx = () => {
 
           <div className="mt-8 pt-8 border-t border-white/20">
             <p className="text-white/60 text-sm">
-              💡 Fun Fact: 404 errors got their name from Room 404 at CERN,
-              where the web was born!
+              💡 Meanwhile, going our home, you can discover other awsome apps
             </p>
           </div>
         </div>
